@@ -60,14 +60,14 @@ python get-pip.py
 ```
 Refer to the pip [documentation](https://pip.pypa.io/en/stable/installing/) for more information.
 
-####
+#### Other python requirements
+* PyGObject, please find installation guidelines for PyGObject ...
 
 #### None Python dependencies
 
 * __Steam__ and the game your Agent wants to play
 * redis-server, please find installation guidelines for redis [here](https://redis.io/download#installation)
 * xdotool, please find installation guidelines for xdotool [here](http://semicomplete.com/projects/xdotool/)
-* PyGObject, please find installation guidelines for PyGObject ...
 
 ## Windows
 
