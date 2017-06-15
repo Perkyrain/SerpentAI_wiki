@@ -1,4 +1,4 @@
-#WORK IN PROGRESS
+# WORK IN PROGRESS
 ## GNU/Linux
 
 Cloning the package via git Console:
