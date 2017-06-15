@@ -6,10 +6,10 @@ Cloning the package via git Console:
 $ git clone https://github.com/SerpentAI/Serpent.git
 ```
 
-#### Requirements
+### Requirements
 
-###### Python
-It is recommended to use a Virtual environment with python3. This can be created from a native python3 install via
+#### Python 3
+It is recommended to use a virtual environment with python3. This can be created from a native python3 install via
 ```
 python3 -m venv /path/to/new/virtual/environment
 ```
@@ -17,12 +17,12 @@ or
 ```
 python -m venv /path/to/new/virtual/environment
 ```
-if your default python version is python 3 (i.e. ArchLinux,...)
+if your default python version is python 3 (i.e. ArchLinux,...).
 Refer to [venv documentation](https://docs.python.org/3/library/venv.html) for more information.
 
-Alternatively [pyenv](https://github.com/pyenv/pyenv) can be used.
+Alternatively [pyenv](https://github.com/pyenv/pyenv) can be used, to create the virtual environment
 
-###### Python packages
+#### Python packages
 Following a list of the required python packages
 * offshoot==0.1.1
 * numpy==1.12.1
@@ -47,7 +47,7 @@ All these can be installed via pip and the [requirements.txt](https://github.com
 $ pip install -r requirements.txt
 ```
 
-###### None Python dependencies
+#### None Python dependencies
 Other dependencies that can't be installed via pip
 * Steam and the respective game your Agent wants to play
 * ...and more
