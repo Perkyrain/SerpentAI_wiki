@@ -62,8 +62,8 @@ Refer to the pip [documentation](https://pip.pypa.io/en/stable/installing/) for 
 
 #### None Python dependencies
 Other dependencies that can't be installed via pip
-* Steam and the respective game your Agent wants to play
-* ...and more
+* __Steam__ and the game your Agent wants to play
+* redis-server, please find installation guidelines for redis [here](https://redis.io/download#installation)
 
 ## Windows
 
