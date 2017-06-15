@@ -14,7 +14,7 @@ It is recommended to use a virtual environment with python3. This can be created
 ```
 python3 -m venv /path/to/new/virtual/environment
 ```
-or 
+or
 ```
 python -m venv /path/to/new/virtual/environment
 ```
@@ -23,7 +23,7 @@ Refer to [venv documentation](https://docs.python.org/3/library/venv.html) for m
 
 Alternatively [pyenv](https://github.com/pyenv/pyenv) can be used, to create the virtual environment
 
-#### Python packages
+#### Python packages requirements.txt
 Following a list of the required python packages:
 
 * offshoot==0.1.1
@@ -60,10 +60,14 @@ python get-pip.py
 ```
 Refer to the pip [documentation](https://pip.pypa.io/en/stable/installing/) for more information.
 
+####
+
 #### None Python dependencies
-Other dependencies that can't be installed via pip
+
 * __Steam__ and the game your Agent wants to play
 * redis-server, please find installation guidelines for redis [here](https://redis.io/download#installation)
+* xdotool, please find installation guidelines for xdotool [here](http://semicomplete.com/projects/xdotool/)
+* PyGObject, please find installation guidelines for PyGObject ...
 
 ## Windows
 
