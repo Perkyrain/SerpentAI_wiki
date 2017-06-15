@@ -45,7 +45,10 @@ Following a list of the required python packages:
 
 All these can be installed via _pip_ and the [requirements.txt](https://github.com/SerpentAI/Serpent/blob/master/requirements.txt) from the Serpent project folder.
 
+Make sure to check, that you are installing into the virtual environment, by checking the active python environment first. Further info [here](https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/).
+
 ```
+which python
 $ pip install -r requirements.txt
 ```
 
