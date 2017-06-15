@@ -1,5 +1,3 @@
-# Serpent Setup Guide
-
 ## GNU/Linux
 
 Coming soon
