@@ -43,7 +43,7 @@ Following a list of the required python packages:
 * termcolor==1.1.0
 * pyperclip==1.5.27
 
-All these can be installed via pip and the [requirements.txt](https://github.com/SerpentAI/Serpent/blob/master/requirements.txt) from the Serpent project folder.
+All these can be installed via _pip_ and the [requirements.txt](https://github.com/SerpentAI/Serpent/blob/master/requirements.txt) from the Serpent project folder.
 
 ```
 $ pip install -r requirements.txt
