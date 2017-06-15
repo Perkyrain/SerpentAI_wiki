@@ -24,7 +24,8 @@ Refer to [venv documentation](https://docs.python.org/3/library/venv.html) for m
 Alternatively [pyenv](https://github.com/pyenv/pyenv) can be used, to create the virtual environment
 
 #### Python packages
-Following a list of the required python packages
+Following a list of the required python packages:
+
 * offshoot==0.1.1
 * numpy==1.12.1
 * scikit-image==0.13.0
@@ -47,6 +48,14 @@ All these can be installed via pip and the [requirements.txt](https://github.com
 ```
 $ pip install -r requirements.txt
 ```
+
+If _pip_ is not already installed on your system, you can do so via
+
+```
+wget https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
+```
+Refer to the pip [documentation](https://pip.pypa.io/en/stable/installing/) for more information.
 
 #### None Python dependencies
 Other dependencies that can't be installed via pip
