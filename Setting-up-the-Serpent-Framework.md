@@ -12,11 +12,11 @@ $ git clone https://github.com/SerpentAI/Serpent.git
 #### Python 3
 It is recommended to use a virtual environment with python3. This can be created from a native python3 install via
 ```
-python3 -m venv /path/to/new/virtual/environment
+$ python3 -m venv /path/to/new/virtual/environment
 ```
 or
 ```
-python -m venv /path/to/new/virtual/environment
+$ python -m venv /path/to/new/virtual/environment
 ```
 if your default python version is python 3 (i.e. ArchLinux,...).
 Refer to [venv documentation](https://docs.python.org/3/library/venv.html) for more information.
@@ -48,15 +48,15 @@ All these can be installed via _pip_ and the [requirements.txt](https://github.c
 Make sure to check, that you are installing into the virtual environment, by checking the active python environment first. Further info [here](https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/).
 
 ```
-which python
+$ which python
 $ pip install -r requirements.txt
 ```
 
 If _pip_ is not already installed on your system, you can do so via
 
 ```
-wget https://bootstrap.pypa.io/get-pip.py
-python get-pip.py
+$ wget https://bootstrap.pypa.io/get-pip.py
+$ python get-pip.py
 ```
 Refer to the pip [documentation](https://pip.pypa.io/en/stable/installing/) for more information.
 
@@ -68,7 +68,7 @@ Refer to the pip [documentation](https://pip.pypa.io/en/stable/installing/) for 
 * __Steam__ and the game your Agent wants to play
 * __redis-server__, please find installation guidelines for redis [here](https://redis.io/download#installation)
 * __xdotool__, please find installation guidelines for xdotool [here](http://semicomplete.com/projects/xdotool/)
-* __cuda__, ```pacman -S cuda``` if you are on arch or [check the docs](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#axzz4k7BQOTHS) for different installation options
+* __cuda__, ```$ pacman -S cuda``` if you are on arch or [check the docs](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#axzz4k7BQOTHS) for different installation options
 
 ## Windows
 
