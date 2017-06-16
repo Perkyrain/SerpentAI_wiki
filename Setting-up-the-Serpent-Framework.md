@@ -66,9 +66,9 @@ Refer to the pip [documentation](https://pip.pypa.io/en/stable/installing/) for 
 #### None Python dependencies
 
 * __Steam__ and the game your Agent wants to play
-* redis-server, please find installation guidelines for redis [here](https://redis.io/download#installation)
-* xdotool, please find installation guidelines for xdotool [here](http://semicomplete.com/projects/xdotool/)
-* cuda, ```pacman -S cuda``` if you are on arch or [check the docs](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#axzz4k7BQOTHS) for different installation options
+* __redis-server__, please find installation guidelines for redis [here](https://redis.io/download#installation)
+* __xdotool__, please find installation guidelines for xdotool [here](http://semicomplete.com/projects/xdotool/)
+* __cuda__, ```pacman -S cuda``` if you are on arch or [check the docs](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#axzz4k7BQOTHS) for different installation options
 
 ## Windows
 
