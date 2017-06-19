@@ -61,3 +61,6 @@ Little difference (at least in breakout):
 I am probably missing a lot of other important titbits. If I remember anything else I will come back. But probably you will see big improvements if you implement all of this correctly.
 
 If you have any doubts you can check out my code: https://github.com/cgel/DRL
+
+Link Collection:
+Overview over most of the mentioned methods: http://blog.bsu.me/294-per-doom/
