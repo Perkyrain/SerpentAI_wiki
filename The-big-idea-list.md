@@ -23,7 +23,7 @@
 - Basic Idea: Use multiple Agents at once and combine their individual gradients to train --> Maybe not possible for Isaac 
 - http://proceedings.mlr.press/v48/mniha16.pdf
 
-Side notes extracted from a paper where they trained a DQN to play Super Smash bros (https://arxiv.org/pdf/1702.06230.pdf):
+**Side notes** extracted from a paper where they trained a DQN to play Super Smash bros (https://arxiv.org/pdf/1702.06230.pdf):
 
 Epsilon value = 0.02
 
@@ -34,3 +34,30 @@ number and sizes of the critic layers did not have much of an effect."
 
 "For each algorithm, we found little variance between experiments  with  different  initializations.   However,  the  two algorithms  found  qualitatively  different  policies  from  eachother.   Actor-Critics  pursued  a  standard  strategy  of  attacking and counter-attacking,  similar to the way humans play.
 Q-learners on the other hand would consistently find the unintuitive strategy of tricking the in-game AI into killing itself. This multi-step tactic is fairly impressive; it involves moving to the edge of the stage and allowing the enemy to attempt a 2-attack string, the first of which hits (resulting in a small negative reward) while the second misses and causes the enemy to suicide (resulting in a large positive reward)."
+
+**More side notes** extracted from https://github.com/dennybritz/reinforcement-learning/issues/30 :
+
+Hi guys, I have spent a lot of time implementing my DQN code and I have solved many of the same challenges that you seem to be facing.
+Right now I am crazy busy and I don't have the time to help you debug your code but I can give you some pointers of the things that are important and the things that aren't.
+Also, I haven't read all of discussion or the code so I might be pointing out things that you already know. Sorry about that.
+
+Important stuff:
+
+    Normalise input [0,1]
+    Clip rewards [0,1]
+    don't tf.reduce_mean the losses in the batch. Use tf.reduce_max
+    initialise properly the network with xavier init
+    use the optimizer that the paper uses. It is not same RMSProp as in tf
+
+Not really sure how important:
+
+    They count steps differently. If action repeat is 4 then they count 4 steps for action. So divide all pertinent hyper-parameters by 4.
+
+Little difference (at least in breakout):
+
+    pass terminal flag when life is lost
+    gym vs alewrap. Learning rate is different but If one works so will the other
+
+I am probably missing a lot of other important titbits. If I remember anything else I will come back. But probably you will see big improvements if you implement all of this correctly.
+
+If you have any doubts you can check out my code: https://github.com/cgel/DRL
