@@ -61,7 +61,7 @@ $ python get-pip.py
 Refer to the pip [documentation](https://pip.pypa.io/en/stable/installing/) for more information.
 
 #### Other python requirements
-* __PyGObject__, please find installation guidelines for PyGObject ...
+* __PyGObject__, please find installation guidelines for PyGObject [here](http://pygobject.readthedocs.io/en/latest/getting_started.html)
 
 #### None Python dependencies
 
