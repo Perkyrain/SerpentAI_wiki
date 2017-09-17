@@ -103,8 +103,8 @@ Install the following package: _cudnn_.
 
 ##### Debian-Based Systems
 
-1. Make an account on [https://developer.nvidia.com/][https://developer.nvidia.com/]
-2. Visit [https://developer.nvidia.com/cudnn][https://developer.nvidia.com/cudnn]
+1. Make an account on [https://developer.nvidia.com/](https://developer.nvidia.com/)
+2. Visit [https://developer.nvidia.com/cudnn](https://developer.nvidia.com/cudnn)
 3. Download _cuDNN v6.0 Library for Linux_
 4. Go to the file in the Terminal and run `tar -xvzf cudnn-8.0-linux-x64-v6.0.tgz`
 5. Run `sudo mv cuda /usr/local/`
