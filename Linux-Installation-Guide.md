@@ -56,6 +56,22 @@ Serpent.AI includes OCR functionality so that text can be read from game frame r
 
 You can test your Tesseract installation by executing `tesseract --list-langs`.
 
+On Debian-based distros, some system libraries will also be required when building the Python package: _libtesseract-dev libleptonica-dev_
+
+### Kivy Dependencies
+
+#### Arch-Based
+
+Install the following package: _sdl2_
+
+#### Debian-Based
+
+`sudo add-apt-repository ppa:kivy-team/kivy`
+
+`sudo apt-get update`
+
+`sudo apt-get install python3-kivy`
+
 ### GPU-Accelerated Tensorflow Dependencies (Optional)
 
 You only need to install the following dependencies if:
