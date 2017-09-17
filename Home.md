@@ -6,7 +6,7 @@ New user? Interested in developing your own game agent experiments? The followin
 
 ### Installation
 
-* [Linux Installation Guide]
+* [Linux Installation Guide](https://github.com/SerpentAI/Serpent/wiki/Linux-Installation-Guide)
 * [Windows Installation Guide]
 
 ### Getting Started
