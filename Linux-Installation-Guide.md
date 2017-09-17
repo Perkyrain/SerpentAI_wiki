@@ -70,17 +70,40 @@ AND
 
 Before installing any other dependencies, you need to make sure you are running on NVIDIA's proprietary drivers for your GPU. One easy way to test this is to run `nvidia-smi`. If you get no errors and see a driver version, you can skip to the next block.
 
-The easiest way to install the drivers is probably through the package manager. On Arch-based systems, you should install the following packages: _nvidia_ & _nvidia-installer_. Optionally: _nvidia-settings_ & _nvidia-utils_. Make sure the _xf86-video-nouveau_ package is not installed as it will conflict with the drivers.
+##### Arch-Based Systems
+
+The easiest way to install the drivers is probably through the package manager. You should install the following packages: _nvidia_ & _nvidia-installer_. Optionally: _nvidia-settings_ & _nvidia-utils_. Make sure the _xf86-video-nouveau_ package is not installed as it will conflict with the drivers.
 
 Run `nvidia-installer` and follow the on-screen instructions.
 
+##### Debian-Based Systems
+
+1. Enter the TTY (Ctrl + Alt + F1)
+2. Run `sudo apt-get purge nvidia-*`
+3. Run `sudo apt-add-repository ppa:graphics-drivers/ppa`
+4. Run `sudo apt-get update`
+5. Run `sudo apt-get install nvidia-384`
+6. Run `sudo reboot`
+
 #### CUDA
 
-On Arch-based systems, install the following package: _cuda_. Other packages that could be required: _pycuda-headers_, _python-pycuda_.
+##### Arch-Based Systems
+
+Install the following package: _cuda_. Other packages that could be required: _pycuda-headers_, _python-pycuda_.
+
+##### Debian-Based Systems
+
+TBD
 
 #### cuDNN
 
-On Arch-based systems, install the following package: _cudnn_.
+##### Arch-Based Systems
+
+Install the following package: _cudnn_.
+
+##### Debian-Based Systems
+
+TBD
 
 #### Tensorflow
 
