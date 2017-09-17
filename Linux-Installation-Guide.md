@@ -60,11 +60,11 @@ On Debian-based distros, some system libraries will also be required when buildi
 
 ### Kivy Dependencies
 
-#### Arch-Based
+##### Arch-Based Systems
 
 Install the following package: _sdl2_
 
-#### Debian-Based
+##### Debian-Based Systems
 
 `sudo add-apt-repository ppa:kivy-team/kivy`
 
