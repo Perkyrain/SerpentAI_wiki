@@ -89,11 +89,11 @@ Run `nvidia-installer` and follow the on-screen instructions.
 
 ##### Arch-Based Systems
 
-Install the following package: _cuda_. Other packages that could be required: _pycuda-headers_, _python-pycuda_.
+Install the following package: _cuda_.
 
 ##### Debian-Based Systems
 
-TBD
+Run `sudo apt-get install nvidia-cuda-dev nvidia-cuda-toolkit nvidia-nsight` (Ubuntu 17.04)
 
 #### cuDNN
 
@@ -103,11 +103,12 @@ Install the following package: _cudnn_.
 
 ##### Debian-Based Systems
 
-TBD
-
-#### Tensorflow
-
-On Arch-based systems, install the following packages: _tensorflow-cuda_, _python-tensorflow-cuda_
+1. Make an account on [https://developer.nvidia.com/][https://developer.nvidia.com/]
+2. Visit [https://developer.nvidia.com/cudnn][https://developer.nvidia.com/cudnn]
+3. Download _cuDNN v6.0 Library for Linux_
+4. Go to the file in the Terminal and run `tar -xvzf cudnn-8.0-linux-x64-v6.0.tgz`
+5. Run `sudo mv cuda /usr/local/`
+6. Add `export LD_LIBRARY_PATH=/usr/local/cuda/lib64/` to _.bashrc_ and source it.
 
 ## Installing Serpent.AI
 
