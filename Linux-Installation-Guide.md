@@ -22,7 +22,7 @@ This section will assume the use of [pyenv](https://github.com/pyenv/pyenv). Ins
 
 On Debian-based systems, if the Python build fails, try the following first:
 
-`sudo apt-get install libexpat1-dev libssl-dev zlib1g-dev libncurses5-dev libbz2-dev liblzma-dev libsqlite3-dev libffi-dev tcl-dev linux-headers-amd64 libgdbm-dev libreadline-dev tk tk-dev openssl` (Python build dependencies)
+`sudo apt-get install libexpat1-dev libssl-dev zlib1g-dev libncurses5-dev libbz2-dev liblzma-dev libsqlite3-dev libffi-dev tcl-dev libgdbm-dev libreadline-dev tk tk-dev openssl` (Python build dependencies)
 
 #### Creating a VirtualEnv for Serpent.AI
 
