@@ -20,6 +20,10 @@ This section will assume the use of [pyenv](https://github.com/pyenv/pyenv). Ins
 
 `pyenv install 3.6.2` (or a more recent version, if applicable)
 
+On Debian-based systems, if the Python build fails, try the following first:
+
+`sudo apt-get install libexpat1-dev libssl-dev zlib1g-dev libncurses5-dev libbz2-dev liblzma-dev libsqlite3-dev libffi-dev tcl-dev linux-headers-amd64 libgdbm-dev libreadline-dev tk tk-dev openssl` (Python build dependencies)
+
 #### Creating a VirtualEnv for Serpent.AI
 
 `pyenv virtualenv 3.6.2 serpent` (_serpent_ can obviously be replaced with another name)
@@ -40,7 +44,7 @@ This will create a _.python-version_ file that will automatically set the active
 
 Redis is used in the framework as the in-memory store for the captured frame buffers as well as the temporary storage of analytics events. Minimum version is 3.0.0.
 
-You can (likely) install Redis from your package manager (On Arch: _redis_), run it in a [Docker container](https://hub.docker.com/_/redis/) or [install it from source](https://redis.io/download).
+You can (likely) install Redis from your package manager (Arch-based: _redis_, Debian-based: _redis-server_), run it in a [Docker container](https://hub.docker.com/_/redis/) or [install it from source](https://redis.io/download).
 
 Once it is installed, you can verify it is up and running properly by executing `redis-cli`. Note that this won't work with the Docker container approach but if your container is running, you are good to go!
 
@@ -48,7 +52,7 @@ Native installs are favored over Docker containers for performance reasons.
 
 ### Tesseract
 
-Serpent.AI includes OCR functionality so that text can be read from game frame regions and leverages Tesseract to do so. You can install Tesseract from your package manager (On Arch: _tesseract_). Language data is also required to have Tesseract return something. You can get language data from the package manager again (On Arch: _tesseract-data-eng_). If you are planning to work with another language than English, make sure to also install the language data for it.
+Serpent.AI includes OCR functionality so that text can be read from game frame regions and leverages Tesseract to do so. You can install Tesseract from your package manager (Arch-based: _tesseract_, Debian-based: _tesseract-ocr_). Language data is also required to have Tesseract return something. You can get language data from the package manager again (Arch-based: _tesseract-data-eng_, Debian-based: _tesseract-ocr-eng_). If you are planning to work with another language than English, make sure to also install the language data for it.
 
 You can test your Tesseract installation by executing `tesseract --list-langs`.
 
