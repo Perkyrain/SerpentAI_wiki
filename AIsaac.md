@@ -1,3 +1,0 @@
-# AIsaac
-
-The goal is to train an AI from scratch to learn to perform a task in the game: Defeat Monstro. The AI starts off knowing nothing but the keys it can press. It will see the pixels of some frames from the game but will not ever receive game information (position of player & boss, HP etc). It doesn't even know there is a player character or that it controls it. When it tries things it gets told by an external system whether something good or bad happened through the reward score. It will store all of it's recent memories along with their scores and actions and will train on that data. It has all the tools it needs through the neural network to detect patterns and form its own concepts.
