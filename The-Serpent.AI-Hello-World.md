@@ -19,7 +19,7 @@ Run `serpent generate game`
 
 You will be greeted by a prompt that looks like this:
 
-![]()
+![](https://s3.ca-central-1.amazonaws.com/serpent-ai-assets/wiki/hello1.png)
 
 Provide the following answers:
 
@@ -30,7 +30,7 @@ You will see some plugin installation output that should end with: _SerpentSuper
 
 If you go and take a look at your plugins directory, you will see that files were generated for your Super Hexagon game plugin.
 
-![]()
+![](https://s3.ca-central-1.amazonaws.com/serpent-ai-assets/wiki/hello2.png)
 
 ## Tweaking the Game Plugin
 
@@ -75,7 +75,7 @@ Run `serpent generate game_agent`
 
 You will be greeted by a prompt that looks like this:
 
-![]()
+![](https://s3.ca-central-1.amazonaws.com/serpent-ai-assets/wiki/hello3.png)
 
 Provide the following answers:
 
@@ -85,7 +85,7 @@ You will see some plugin installation output that should end with: _SerpentSuper
 
 If you go and take a look at your plugins directory, you will see that files were generated for your Super Hexagon game agent plugin.
 
-![]()
+![](https://s3.ca-central-1.amazonaws.com/serpent-ai-assets/wiki/hello4.png)
 
 ## Hello World
 
@@ -112,7 +112,7 @@ Open another terminal and run `serpent visual_debugger`
 
 You should see something like this appear:
 
-![]()
+![](https://s3.ca-central-1.amazonaws.com/serpent-ai-assets/wiki/hello5.png)
 
 Resize it if needed and position it under the game.
 
@@ -136,7 +136,7 @@ Run `serpent play SuperHexagon SerpentSuperHexagonGameAgent`
 
 You should see the frames start cycling in the visual debugger, loosely matching the rate at which the "Hello World!" strings are printed.
 
-![]()
+![](https://s3.ca-central-1.amazonaws.com/serpent-ai-assets/wiki/hello6.png)
 
 A game agent automatically maintains a small buffer of the frames it has received which make it possible to send them to the Visual Debugger in this example.
 
