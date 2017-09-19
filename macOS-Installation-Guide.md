@@ -58,8 +58,9 @@ You can test your Tesseract installation by executing `tesseract --list-langs`.
 
 ### Kivy Dependencies
 
-To be able to build and install Kivy, you need to install Quartz.
+To be able to build and install Kivy, you need to install various libraries.
 
+`brew install pkg-config sdl2 sdl2_image sdl2_ttf sdl2_mixer gstreamer`
 `brew cask install xquartz`
 
 (More info to be added)
