@@ -166,4 +166,6 @@ Can you guess what is going to happen?
 
 Try it out! Run `serpent play SuperHexagon SerpentSuperHexagonGameAgent`
 
+![](https://s3.ca-central-1.amazonaws.com/serpent-ai-assets/wiki/hello7.gif)
+
 #### This concludes the Serpent.AI Hello World. It was a speck of sand on a beach in terms of what can be accomplished but hopefully it got you interested and you are curious to know more!
