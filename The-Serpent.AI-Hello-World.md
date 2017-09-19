@@ -1,3 +1,5 @@
+_Note: Before proceeding with this guide, make sure you have followed the installation guide for your OS, including running 'serpent setup'_
+
 In this section, we will create our first, minimal SerpentAI project: A Hello World of sorts. The examples will use the Steam version of [Super Hexagon](http://store.steampowered.com/app/221640/Super_Hexagon/) as the target game, but you can swap it with another Steam game if you don't happen to own it.
 
 ## Game Preparation
