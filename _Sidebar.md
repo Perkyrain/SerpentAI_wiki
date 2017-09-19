@@ -1,0 +1,1 @@
+![](https://s3.amazonaws.com/serpent-ai-branding/SerpentMiniBlue.png)
