@@ -10,7 +10,12 @@
 
 * [The Serpent.AI Hello World](https://github.com/SerpentAI/SerpentAI/wiki/The-Serpent.AI-Hello-World)
 
+
 ### Core Concepts
 
-* [The 'serpent' Executable](https://github.com/SerpentAI/SerpentAI/wiki/The-'serpent'-Executable)
+* [The _serpent_ Executable](https://github.com/SerpentAI/SerpentAI/wiki/The-'serpent'-Executable)
+* [The _Game_ Class](https://github.com/SerpentAI/SerpentAI/wiki/The-'Game'-Class)
+
+### Common Tasks
+
 * [Capturing Frames and Regions](https://github.com/SerpentAI/SerpentAI/wiki/Capturing-Frames-and-Regions)
