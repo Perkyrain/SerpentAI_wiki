@@ -9,3 +9,7 @@
 ### Quick Start
 
 * [The Serpent.AI Hello World](https://github.com/SerpentAI/SerpentAI/wiki/The-Serpent.AI-Hello-World)
+
+### Core Concepts
+
+* [The 'serpent' Executable](https://github.com/SerpentAI/SerpentAI/wiki/The-'serpent'-Executable)
