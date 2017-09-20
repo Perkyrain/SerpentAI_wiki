@@ -141,7 +141,7 @@ _Captured game frames will be stored in 'datasets/collect\_frames'_
 
 ##### Capture full game frames with a context label
 
-`serpent capture frame <game_name> <interval> <context_label>`
+`serpent capture context <game_name> <interval> <context_label>`
 
 * _game\_name_: The titleized name of the game (i.e. CoolGame).
 * _interval_: The time to wait in seconds between captures. Defaults to 1 second.
@@ -151,7 +151,7 @@ _Captured game frames will be stored in 'datasets/collect\_frames\_for\_context/
 
 ##### Capture a predefined region of game frames
 
-`serpent capture frame <game_name> <interval> <screen_region>`
+`serpent capture region <game_name> <interval> <screen_region>`
 
 * _game\_name_: The titleized name of the game (i.e. CoolGame).
 * _interval_: The time to wait in seconds between captures. Defaults to 1 second.
