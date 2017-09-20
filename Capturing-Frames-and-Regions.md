@@ -45,3 +45,5 @@ The captured game frames will be saved to _datasets/collect\_frames\_for\_contex
 2. Launch the Game through the `serpent launch` command. (example: `serpent launch SuperHexagon`)
 3. Get to the section of the game you are interested in manually.
 4. Run `serpent capture region <game_name> <interval> <screen_region>` (example: `serpent capture region SuperHexagon 1 MAIN_MENU_OPTIONS`)
+
+The captured game frames will be saved to _datasets/collect\_frames/<screen\_region>_.
