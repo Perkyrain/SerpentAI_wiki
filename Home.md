@@ -17,3 +17,4 @@ New user? Interested in developing your own game agent experiments? The followin
 ### Core Concepts
 
 * [The 'serpent' Executable](https://github.com/SerpentAI/SerpentAI/wiki/The-'serpent'-Executable)
+* [Capturing Frames and Regions](https://github.com/SerpentAI/SerpentAI/wiki/Capturing-Frames-and-Regions)
