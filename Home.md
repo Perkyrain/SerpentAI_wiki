@@ -17,4 +17,8 @@ New user? Interested in developing your own game agent experiments? The followin
 ### Core Concepts
 
 * [The 'serpent' Executable](https://github.com/SerpentAI/SerpentAI/wiki/The-'serpent'-Executable)
+* [The _Game_ Class](https://github.com/SerpentAI/SerpentAI/wiki/The-'Game'-Class)
+
+### Common Tasks
+
 * [Capturing Frames and Regions](https://github.com/SerpentAI/SerpentAI/wiki/Capturing-Frames-and-Regions)
