@@ -23,3 +23,4 @@
 
 * [Capturing Frames and Regions](https://github.com/SerpentAI/SerpentAI/wiki/Capturing-Frames-and-Regions)
 * [Using the Visual Debugger](https://github.com/SerpentAI/SerpentAI/wiki/Using-the-Visual-Debugger)
+* [Isolating Sprites from their Backgrounds](https://github.com/SerpentAI/SerpentAI/wiki/Isolating-Sprites-from-their-Backgrounds)
