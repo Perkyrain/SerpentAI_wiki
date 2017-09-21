@@ -134,4 +134,6 @@ Go back to the directory you created earlier for your Serpent.AI projects. Your 
 
 Run `pip install SerpentAI`
 
+Then run `serpent setup` to install the remaining dependencies automatically.
+
 ### You are now done with the installation on Linux!
