@@ -19,6 +19,7 @@ New user? Interested in developing your own game agent experiments? The followin
 * [The Plugin System](https://github.com/SerpentAI/SerpentAI/wiki/The-Serpent.AI-Plugin-System)
 * [The _serpent_ Executable](https://github.com/SerpentAI/SerpentAI/wiki/The-'serpent'-Executable)
 * [The _Game_ Class](https://github.com/SerpentAI/SerpentAI/wiki/The-'Game'-Class)
+* [The _Game_ Plugin](https://github.com/SerpentAI/SerpentAI/wiki/The-'Game'-Plugin)
 
 ### Common Tasks
 
