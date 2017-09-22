@@ -30,7 +30,7 @@ New user? Interested in developing your own game agent experiments? The followin
 
 * [Defining Screen Regions](https://github.com/SerpentAI/SerpentAI/wiki/Defining-Screen-Regions)
 * [Capturing Frames and Regions](https://github.com/SerpentAI/SerpentAI/wiki/Capturing-Frames-and-Regions)
-* Training a Context Classifier
+* [Training a Context Classifier](https://github.com/SerpentAI/SerpentAI/wiki/Training-a-Context-Classifier)
 * Identifying and Locating Sprites
 * [Isolating Sprites from their Backgrounds](https://github.com/SerpentAI/SerpentAI/wiki/Isolating-Sprites-from-their-Backgrounds)
 * Using OCR
