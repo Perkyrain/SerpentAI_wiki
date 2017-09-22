@@ -28,7 +28,7 @@ New user? Interested in developing your own game agent experiments? The followin
 
 ### Common Tasks
 
-* Registering Screen Regions
+* [Defining Screen Regions](https://github.com/SerpentAI/SerpentAI/wiki/Defining-Screen-Regions)
 * [Capturing Frames and Regions](https://github.com/SerpentAI/SerpentAI/wiki/Capturing-Frames-and-Regions)
 * Training a Context Classifier
 * Identifying and Locating Sprites
