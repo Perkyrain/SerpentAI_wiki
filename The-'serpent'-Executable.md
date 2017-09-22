@@ -91,10 +91,11 @@ Play a game with the specified game agent through the appropriate Serpent.AI plu
 
 ##### Play a game with the specified game agent
 
-`serpent play <game_name> <game_agent_plugin_name>`
+`serpent play <game_name> <game_agent_plugin_name> <frame_handler>`
 
 * _game\_name_: The titleized name of the game (i.e. CoolGame).
 * _game\_agent\_plugin\_name_: The full name of the game agent (i.e. SerpentCoolGameGameAgent)
+* _frame\_handler_: A frame handler label. Optional. Default will rely on plugin config.
 
 ### generate
 
