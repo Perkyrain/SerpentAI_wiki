@@ -65,36 +65,9 @@ To be able to build and install Kivy, you need to install various libraries.
 
 (More info to be added)
 
-### CPU-Accelerated Tensorflow Dependencies
+### GPU-Accelerated Tensorflow Dependencies
 
-The easiest way to work with tensorflow on macOS is to install it natively.
-
-`brew install tensorflow`
-
-Please validate tensorflow by following this [short guide](https://www.tensorflow.org/install/install_mac#ValidateYourInstallation) 
-
-### GPU-Accelerated Tensorflow Dependencies (Optional)
-_**(!!!Not Yet Supported!!!)**_
-
-You only need to install the following dependencies if:
-
-* Your game agents will leverage deep neural networks like CNNs and RNNs and you want to get top performance from Tensorflow
-
-AND
-
-* You have an NVIDIA GPU that supports CUDA 3.0+ (Generally the GTX 600 series and up)
-
-#### NVIDIA Drivers
-
-(Not Tested)
-
-#### CUDA & cuDNN
-
-(Not Tested)
-
-`brew cask install cuda`
-
-[Full Install Guide](https://gist.github.com/Mistobaan/dd32287eeb6859c6668d)
+Tensorflow > 1.2 doesn't support GPU acceleration on macOS :(
 
 ## Installing Serpent.AI
 
