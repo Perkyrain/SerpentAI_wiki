@@ -22,7 +22,7 @@ New user? Interested in developing your own game agent experiments? The followin
 * [The _Game_ Plugin](https://github.com/SerpentAI/SerpentAI/wiki/The-'Game'-Plugin)
 * [The _GameAgent_ Class](https://github.com/SerpentAI/SerpentAI/wiki/The-'GameAgent'-Class)
 * [The _GameAgent_ Plugin](https://github.com/SerpentAI/SerpentAI/wiki/The-'GameAgent'-Plugin)
-* The _GameFrame_ Class
+* [The _GameFrame_ Class](https://github.com/SerpentAI/SerpentAI/wiki/The-'GameFrame'-Class)
 * The _InputController_ Class
 * The Streaming API and Analytics Client
 
