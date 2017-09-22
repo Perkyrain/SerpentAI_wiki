@@ -170,15 +170,37 @@ Attempt to locate *query_string* in *game_frame* using OCR with *ocr_preset*. If
 * **fuzziness**: Maximum Damerau–Levenshtein distance from the query string.
 * **ocr_preset**: Label of a valid OCR preset defined in the InputController's Game instance.
 
-
 ### `self.drag`
 
-**Method Signature** *drag(self, button=MouseButton.LEFT, y0=None, x0=None, y1=None, x1=None)*
+**Method Signature** *drag(self, button=MouseButton.LEFT, y0=None, x0=None, y1=None, x1=None, duration=0.25)*
 
 Drag using *button* from (*y0*, *x0*) to (*y1*, *x1*).
 
 * **button**: An item from the MouseButton enum.
-* **game_frame**: A GameFrame instance.
 * **y0**: Initial Y pixel coordinate.
-* **y0**: Initial Y pixel coordinate.
-* **y0**: Initial Y pixel coordinate.
+* **x0**: Initial X pixel coordinate.
+* **y1**: Destination Y pixel coordinate.
+* **x1**: Destination X pixel coordinate.
+* **duration**: Time to take going from initial to destination pixel coordinates (in seconds).
+
+### `self.drag_screen_region_to_screen_region`
+
+**Method Signature** *drag_screen_region_to_screen_region(self, button=MouseButton.LEFT, start_screen_region=None, end_screen_region=None, duration=0.25)*
+
+Drag using *button* from the center of *start_screen_region* to the center of *end_screen_region* over *duration*.
+
+* **button**: An item from the MouseButton enum.
+* **start_screen_region**: Label of a valid screen region defined in the InputController's Game instance.
+* **end_screen_region**: Label of a valid screen region defined in the InputController's Game instance.
+* **duration**: Time to take going from start to end screen regions (in seconds).
+
+### `self.scroll`
+
+**Method Signature** *scroll(self, y=None, x=None, clicks=1, direction="DOWN")*
+
+Position the mouse cursor at (*y*, *x*) and scroll *clicks* going *direction*.
+
+* **y**: The Y pixel coordinate.
+* **x**: The X pixel coordinate.
+* **clicks**: Number of scroll clicks.
+* **direction**: One of "UP", "DOWN"
