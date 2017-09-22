@@ -169,6 +169,6 @@ Launch the Visual Debugger.
 
 `serpent visual_debugger`
 
-#### Launch the Visual Debugger with Custom Buckets
+##### Launch the Visual Debugger with Custom Buckets
 
-`serpent visual_debugger a b c`
+`serpent visual_debugger custom_1 custom_2`
