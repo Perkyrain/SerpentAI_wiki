@@ -29,3 +29,7 @@
 * [Identifying and Locating Sprites](https://github.com/SerpentAI/SerpentAI/wiki/Identifying-and-Locating-Sprites)
 * [Isolating Sprites from their Backgrounds](https://github.com/SerpentAI/SerpentAI/wiki/Isolating-Sprites-from-their-Backgrounds)
 * [Using the Visual Debugger](https://github.com/SerpentAI/SerpentAI/wiki/Using-the-Visual-Debugger)
+
+### Extras
+
+* [Game Agent Development Starter Workflow](https://github.com/SerpentAI/SerpentAI/wiki/Game-Agent-Development-Starter-Workflow)
