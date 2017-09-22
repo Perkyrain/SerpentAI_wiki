@@ -24,7 +24,7 @@ New user? Interested in developing your own game agent experiments? The followin
 * [The _GameAgent_ Plugin](https://github.com/SerpentAI/SerpentAI/wiki/The-'GameAgent'-Plugin)
 * [The _GameFrame_ Class](https://github.com/SerpentAI/SerpentAI/wiki/The-'GameFrame'-Class)
 * [The _InputController_ Class](https://github.com/SerpentAI/SerpentAI/wiki/The-'InputController'-Class)
-* The Streaming API and Analytics Client
+* The Streaming API and Analytics Client (planned)
 
 ### Common Tasks
 
@@ -34,7 +34,7 @@ New user? Interested in developing your own game agent experiments? The followin
 * [Identifying and Locating Sprites](https://github.com/SerpentAI/SerpentAI/wiki/Identifying-and-Locating-Sprites)
 * [Isolating Sprites from their Backgrounds](https://github.com/SerpentAI/SerpentAI/wiki/Isolating-Sprites-from-their-Backgrounds)
 * [Using the Visual Debugger](https://github.com/SerpentAI/SerpentAI/wiki/Using-the-Visual-Debugger)
-* Using OCR
+* Using OCR (planned)
 
 ### Extras
 
