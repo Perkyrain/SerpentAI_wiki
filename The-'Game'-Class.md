@@ -9,12 +9,16 @@ The _Game_ class is meant to represent a generic video game in the Serpent.AI fr
 * Starting/stopping instances of the FrameGrabber class
 * Feeding GameFrame instances to a given GameAgent instance in a loop
 * Throttling the speed at which GameFrame instances are fed to the GameAgent instance
-* Expose the game-specific API implemented by a plugin
-* Register and expose all sprites following the name convention inside a plugin's data directory
-* Provide information about regions of interest in game frames
-* Provide information about OCR presets
+* Exposing the game-specific API implemented by a plugin
+* Registering and exposing all sprites following the name convention inside a plugin's data directory
+* Providing information about regions of interest in game frames
+* Providing information about OCR presets
 
 ### Concepts
+
+#### Frame Grabbing
+
+When *play* is called on a Game instance, a FrameGrabber instance is started in the background as a separate process. The Frame Grabber's role is to maintain a precise capture rate (30 FPS by default) and store the image data in an in-memory stack. The Frame Grabber automatically gets shut down when the main process gets killed. It runs in the background for a pretty obvious reason: Not letting the execution of the Game Agent interfere with the capture.
 
 #### Game Frame Limiter
 
