@@ -23,6 +23,9 @@
 
 ### Common Tasks
 
+* [Defining Screen Regions](https://github.com/SerpentAI/SerpentAI/wiki/Defining-Screen-Regions)
 * [Capturing Frames and Regions](https://github.com/SerpentAI/SerpentAI/wiki/Capturing-Frames-and-Regions)
-* [Using the Visual Debugger](https://github.com/SerpentAI/SerpentAI/wiki/Using-the-Visual-Debugger)
+* [Training a Context Classifier](https://github.com/SerpentAI/SerpentAI/wiki/Training-a-Context-Classifier)
+* [Identifying and Locating Sprites](https://github.com/SerpentAI/SerpentAI/wiki/Identifying-and-Locating-Sprites)
 * [Isolating Sprites from their Backgrounds](https://github.com/SerpentAI/SerpentAI/wiki/Isolating-Sprites-from-their-Backgrounds)
+* [Using the Visual Debugger](https://github.com/SerpentAI/SerpentAI/wiki/Using-the-Visual-Debugger)
