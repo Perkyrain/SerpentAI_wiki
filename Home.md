@@ -34,13 +34,23 @@ New user? Interested in developing your own game agent experiments? The followin
 * Identifying and Locating Sprites
 * [Isolating Sprites from their Backgrounds](https://github.com/SerpentAI/SerpentAI/wiki/Isolating-Sprites-from-their-Backgrounds)
 * Using OCR
-* Accessing the Frame Buffer Stack
-* Working with Datasets
 * [Using the Visual Debugger](https://github.com/SerpentAI/SerpentAI/wiki/Using-the-Visual-Debugger)
 
 ### Extras
 
 * Typical Game Agent Development Workflow
+
+### Sample Plugins
+
+#### Game Plugins
+
+* [SerpentAI/SerpentYouMustBuildABoatGamePlugin](https://github.com/SerpentAI/SerpentYouMustBuildABoatGamePlugin)
+* [SerpentAI/SerpentOpenRCT2GamePlugin](https://github.com/SerpentAI/SerpentOpenRCT2GamePlugin) (WIP)
+
+#### Game Agent Plugins
+
+* [SerpentAI/SerpentYouMustBuildABoatGameAgentPlugin](https://github.com/SerpentAI/SerpentYouMustBuildABoatGameAgentPlugin)
+* [SerpentAI/SerpentOpenRCT2GameAgentPlugin](https://github.com/SerpentAI/SerpentOpenRCT2GameAgentPlugin) (WIP)
 
 ### Recommended 3rd-Party Tools
 
