@@ -23,7 +23,7 @@ This section will assume the use of [virtualenvwrapper](https://virtualenvwrappe
 
 #### Installing Python 3.6 and a VirtualEnv for Serpent.AI
 
-`mkvirtualenv --python=python3 serpent` (_serpent_ can obviously be replaced with another name)
+`mkvirtualenv --python=python3 serpent` (_serpent_ can be replaced with another name)
 
 #### Creating a directory for your Serpent.AI projects
 
