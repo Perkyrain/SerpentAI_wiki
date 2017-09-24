@@ -72,6 +72,8 @@ Install the following package: _sdl2_
 
 `sudo apt-get install python3-kivy`
 
+Note that on some distributions (such as Ubuntu 16.04), you may have to manually specify the Cython version in order for Kivy to install correctly.  Such as `pip install Cython==0.25.2`, per this [StackOverflow](https://stackoverflow.com/questions/13485364/cant-install-kivy-cython-gcc-error)
+
 ### GPU-Accelerated Tensorflow Dependencies (Optional)
 
 You only need to install the following dependencies if:
