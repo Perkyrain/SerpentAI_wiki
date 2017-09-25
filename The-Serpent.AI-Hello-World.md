@@ -26,7 +26,7 @@ You will be greeted by a prompt that looks like this:
 Provide the following answers:
 
 * SuperHexagon
-* steam
+* steam or executable
 
 You will see some plugin installation output that should end with: _SerpentSuperHexagonGamePlugin was installed successfully!_
 
@@ -39,6 +39,8 @@ If you go and take a look at your plugins directory, you will see that files wer
 To get Super Hexagon to launch through Serpent.AI, you will need to make a few edits in the game plugin.
 
 Open _plugins/SerpentSuperHexagonGamePlugin/files/serpent_SuperHexagon_game.py_. The constructor should look similar to this:
+
+### Steam Game
 
 ```python
     def __init__(self, **kwargs):
@@ -57,9 +59,30 @@ Open _plugins/SerpentSuperHexagonGamePlugin/files/serpent_SuperHexagon_game.py_.
 ```
 
 * Replace _WINDOW\_NAME_ with the game window title you wrote down earlier (_Super Hexagon_ for Super Hexagon).
-* Replace _APP\_ID_ with the Steam APPID of the game (_221640_ for Super Hexagon)
+* Replace _APP\_ID_ with the Steam APPID of the game (_221640_ for Super Hexagon).
 
 Pro-tip: You can find Steam APPIDs quickly by searching for game titles on [SteamDB](https://steamdb.info/search/?a=app)
+
+### Non-Steam Game
+
+```python
+   def __init__(self, **kwargs):
+
+        kwargs["platform"] = "executable"
+        
+        kwargs["window_name"] = "WINDOW_NAME"
+        
+        kwargs["app_args"] = None
+        kwargs["executable_path"] = "EXECUTABLE_PATH"
+
+        super().__init__(**kwargs)
+
+        self.api_class = StreetFighterXMegaManAPI
+        self.api_instance = None
+```
+
+* Replace _WINDOW\_NAME_ with the game window title you wrote down earlier (_Super Hexagon_ for Super Hexagon).
+* Replace _EXECUTABLE\_PATH_ with the the path to the .exe file.
 
 ## Launching the Game
 
