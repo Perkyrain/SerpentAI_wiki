@@ -43,6 +43,8 @@ a _Bash on Ubuntu on Windows_ prompt. If you have not set up WSL yet, you can fo
 
 Open a _Bash on Ubuntu on Windows_ prompt and execute the following commands:
 
+`sudo apt-get update`
+
 `sudo apt-get install redis-server -y`
 
 `sudo sed -i -e 's/127.0.0.1/0.0.0.0/g' /etc/redis/redis.conf`
