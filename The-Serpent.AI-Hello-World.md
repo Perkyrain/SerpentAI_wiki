@@ -11,7 +11,9 @@ Whenever you start working with a new game, there will be few preparation steps 
 3. Tweak the video settings:
     * switch to Windowed mode
     * select a Resolution (if applicable)
-4. Write down the title of the game window
+4. Write down the window identifier:
+    * **On Linux and Windows**: The window title of the game.
+    * **On macOS**: The process name of the game (i.e. the name that shows up in the top left when you focus the game).
 
 ## Creating a Game Plugin
 
@@ -56,7 +58,7 @@ Open _plugins/SerpentSuperHexagonGamePlugin/files/serpent_SuperHexagon_game.py_.
         self.api_instance = None
 ```
 
-* Replace _WINDOW\_NAME_ with the game window title you wrote down earlier (_Super Hexagon_ for Super Hexagon).
+* Replace _WINDOW\_NAME_ with the game window identifier you wrote down earlier (_Super Hexagon_ for Super Hexagon).
 * Replace _APP\_ID_ with the Steam APPID of the game (_221640_ for Super Hexagon).
 
 Pro-tip: You can find Steam APPIDs quickly by searching for game titles on [SteamDB](https://steamdb.info/search/?a=app)
@@ -80,7 +82,7 @@ If you are doing the Hello World with an *executable* game
         self.api_instance = None
 ```
 
-* Replace _WINDOW\_NAME_ with the game window title you wrote down earlier.
+* Replace _WINDOW\_NAME_ with the game window identifier you wrote down earlier.
 * Replace _EXECUTABLE\_PATH_ with an executable in PATH or the full path to a file you want to launch.
 
 ## Launching the Game
