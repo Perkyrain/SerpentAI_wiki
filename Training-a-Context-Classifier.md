@@ -39,12 +39,6 @@ Copy the model to *plugins/SerpentSuperHexagonGameAgentPlugin/files/ml_models/*.
 
 ## Load the Context Classifier in your Game Agent code
 
-Import the following class if not already present:
-
-```python
-from serpent.machine_learning.context_classification.context_classifiers.cnn_inception_v3_context_classifier import CNNInceptionV3ContextClassifier
-```
-
 Add the following to your game agent's constructor or frame handler setup function:
 
 ```python
@@ -52,7 +46,9 @@ plugin_path = offshoot.config["file_paths"]["plugins"]
 
 context_classifier_path = f"{plugin_path}/SerpentSuperHexagonGameAgentPlugin/files/ml_models/context_classifier.model"
 
+from serpent.machine_learning.context_classification.context_classifiers.cnn_inception_v3_context_classifier import CNNInceptionV3ContextClassifier
 context_classifier = CNNInceptionV3ContextClassifier(input_shape=(384, 512, 3))  # Replace with the shape (rows, cols, channels) of your captured context frames
+
 context_classifier.prepare_generators()
 context_classifier.load_classifier(context_classifier_path)
 
