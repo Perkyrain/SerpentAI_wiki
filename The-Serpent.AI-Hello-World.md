@@ -13,7 +13,7 @@ Whenever you start working with a new game, there will be few preparation steps 
     * select a Resolution (if applicable)
 4. Write down the window identifier:
     * **On Linux and Windows**: The window title of the game.
-    * **On macOS**: The process name of the game (i.e. the name that shows up in the top left when you focus the game).
+    * **On macOS**: The process name of the game. Since this isn't immediately obvious and can be tricky to get right, a utility ships with the framework to get the proper value. Run `serpent window_name` and follow the instructions.
 
 ## Creating a Game Plugin
 
