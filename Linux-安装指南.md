@@ -1,4 +1,4 @@
-提示: 这个教程还在不断完善中，如果按照此教程进行配置遇到任何问题，请[创建一个问题](https://github.com/SerpentAI/Serpent/issues/new)或者在 [Discord](https://discord.gg/9D5SuxH) 中发信息提问，或直接 @Serpent.AI，非常感谢。
+_提示: 这个教程还在不断完善中，如果按照此教程进行配置遇到任何问题，请[创建一个问题](https://github.com/SerpentAI/Serpent/issues/new)或者在 [Discord](https://discord.gg/9D5SuxH) 中发信息提问，或直接 @Serpent.AI，非常感谢。_
 
 在 linux 平台上部署 Serpent.AI 相对简单一些，本安装指南是在 [Antergos](https://antergos.com/) 平台( Arch架构 )上进行编写和测试的，但经过少量的修改应该可以适配所有其他发行版。_我们鼓励在此页添加任何针对其他发行版的改进。_
 
