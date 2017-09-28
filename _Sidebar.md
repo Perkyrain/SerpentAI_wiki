@@ -1,4 +1,7 @@
 ![](https://s3.amazonaws.com/serpent-ai-branding/SerpentMiniBlue.png)
+### Translations
+
+* [简体中文](Home_zh_cn)
 
 ### Installation
 
