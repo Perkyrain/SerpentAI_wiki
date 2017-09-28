@@ -173,3 +173,13 @@ Launch the Visual Debugger.
 ##### Launch the Visual Debugger with Custom Buckets
 
 `serpent visual_debugger custom_1 custom_2`
+
+### window_name
+
+Launch a CLI utility to assist in determining the correct value for the window name variable in your Game plugin. Mostly meant for macOS since window titles can be used directly on Linux and Windows.
+
+#### Usage
+
+##### Launch the utility
+
+`serpent window_name`
