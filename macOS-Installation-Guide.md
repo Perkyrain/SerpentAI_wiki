@@ -52,7 +52,9 @@ Native installs are favored over Docker containers for performance reasons.
 
 ### Tesseract
 
-Serpent.AI includes OCR functionality so that text can be read from game frame regions and leverages Tesseract to do so. You can install Tesseract with Homebrew `brew install tesseract`. Language data is also required to have Tesseract return something. By default `english` is included. If you are planning to work on another language than English, you can install all languages with `brew install tesseract --all-languages` or [manually as needed](https://blog.philippklaus.de/2011/01/chinese-ocr/).
+Serpent.AI includes OCR functionality so that text can be read from game frame regions and leverages Tesseract to do so. You can install Tesseract with Homebrew:
+`brew install tesseract`
+Language data is also required to have Tesseract return something. By default `english` is included. If you are planning to work on another language than English, you can install all languages with `brew install tesseract --all-languages` or [manually as needed](https://blog.philippklaus.de/2011/01/chinese-ocr/).
 
 You can test your Tesseract installation by executing `tesseract --list-langs`.
 
