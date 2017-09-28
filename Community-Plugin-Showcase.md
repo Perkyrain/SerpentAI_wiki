@@ -10,6 +10,10 @@ Feel free to edit this page to add links to GitHub repositories containing your 
 
 * [SerpentAI/SerpentYouMustBuildABoatGamePlugin](https://github.com/SerpentAI/SerpentYouMustBuildABoatGamePlugin)
 
+#### Super Hexagon
+
+* [kjullien/SerpentAI-SuperHexagon](https://github.com/kjullien/SerpentAI-SuperHexagon): contains both Game Plugin and Game Agent Plugin while in data collection phase.
+
 ## Game Agent Plugins
 
 #### You Must Build a Boat
