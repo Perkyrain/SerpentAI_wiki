@@ -12,7 +12,7 @@ _提示: 这个教程还在不断完善中，如果按照此教程进行配置�
 
 Serpent.AI 的开发利用了很多 Python 3.6 的特征功能，所以 Python 的版本要求最低为 3.6。
 
-如果你的系统本身的 Python 已经符合了这一需求(基于 Arch 的基本都符合，其他的不尽然)，你可以随意使用本框架。但是我们推荐使用诸如 pyenv 的 Python 版本管理软件，同时使用一个正确配置的虚拟环境 (VirtualEnv)。一旦因为操作不当导致 Python 本身出现严重问题，这样可以避免导致依赖 Python 的系统工具的运行崩溃。
+如果你的系统本身的 Python 已经符合了这一需求( Arch-架构的基本都符合，其他的不尽然)，你可以随意使用本框架。但是我们推荐使用诸如 pyenv 的 Python 版本管理软件，同时使用一个正确配置的虚拟环境 (VirtualEnv)。一旦因为操作不当导致 Python 本身出现严重问题，这样可以避免导致依赖 Python 的系统工具的运行崩溃。
 
 本节说明建立在使用 [pyenv](https://github.com/pyenv/pyenv) 的基础上，虽然本教程不会详细介绍如何配置 pyenv ，但是这里有一份[关于 pyenv-installer 的详细文档](https://github.com/pyenv/pyenv-installer)你可以查阅。
 
