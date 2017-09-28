@@ -5,7 +5,7 @@ New user? Interested in developing your own game agent experiments? The followin
 
 ### Translations
 
-* [简体中文](Home_zh)
+* [简体中文](Home_zh_cn)
 
 ### Installation
 
