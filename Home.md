@@ -55,6 +55,10 @@ New user? Interested in developing your own game agent experiments? The followin
 * [SerpentAI/SerpentYouMustBuildABoatGameAgentPlugin](https://github.com/SerpentAI/SerpentYouMustBuildABoatGameAgentPlugin)
 * [SerpentAI/SerpentOpenRCT2GameAgentPlugin](https://github.com/SerpentAI/SerpentOpenRCT2GameAgentPlugin) (WIP)
 
+### Community Showcase
+
+* [Community Plugin Showcase](https://github.com/SerpentAI/SerpentAI/wiki/Community-Plugin-Showcase)
+
 ### Recommended 3rd-Party Tools
 
 * [Jupyter Notebook](https://github.com/jupyter/notebook): Rapid Prototyping & Experimentation
