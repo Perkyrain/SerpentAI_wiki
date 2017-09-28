@@ -8,7 +8,7 @@
 
 ### 安装
 * [[Linux 安装指南|Linux-安装指南]]
-* [Windows 安装指南](https://github.com/SerpentAI/SerpentAI/wiki/Windows-Installation-Guide)
+* [[Windows 安装指南|Windows-安装指南]]
 * [[macOS 安装指南|macOS-安装指南]]
 
 ### 快速入门指南
