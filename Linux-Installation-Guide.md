@@ -60,19 +60,15 @@ On Debian-based distros, some system libraries will also be required when buildi
 
 ### Kivy Dependencies
 
+Kivy is the number one source of headaches in the setup process for Serpent.AI. Here we attempt to provide pointers in getting the wheel to compile properly.
+
 ##### Arch-Based Systems
 
 Install the following package: _sdl2_
 
 ##### Debian-Based Systems
 
-`sudo add-apt-repository ppa:kivy-team/kivy`
-
-`sudo apt-get update`
-
-`sudo apt-get install python3-kivy`
-
-Note that on some distributions (such as Ubuntu 16.04), you may have to manually specify the Cython version in order for Kivy to install correctly.  Such as `pip install Cython==0.25.2`, per this [StackOverflow](https://stackoverflow.com/questions/13485364/cant-install-kivy-cython-gcc-error)
+[https://kivy.org/docs/installation/installation-linux.html#installation-in-a-virtual-environment](https://kivy.org/docs/installation/installation-linux.html#installation-in-a-virtual-environment)
 
 ### GPU-Accelerated Tensorflow Dependencies (Optional)
 
