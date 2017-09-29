@@ -2,7 +2,7 @@
 
 ## 欢迎阅览Serpent.AI百科！
 
-新来的？有兴趣开发属于自己的游戏代理实验吗？如果你对高度定制化的智能游戏代理感兴趣的话，以下文章将为您掌握Serpent.AI框架提供所需的全部知识。
+新来的？有兴趣开发属于自己的游戏代理实验吗？如果你对高度定制化的智能游戏代理感兴趣的话，以下文章将为您掌握Serpent.AI框架提供所需的全部知识。```迎客松译制```:seedling:
 
 ### 其他语言
 
@@ -65,3 +65,5 @@
 
 * [NumPy](https://docs.scipy.org/doc/numpy-dev/dev/)
 * [Scikit-image](http://scikit-image.org/docs/stable/)
+
+
