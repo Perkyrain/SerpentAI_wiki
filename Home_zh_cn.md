@@ -20,7 +20,7 @@
 
 ### 核心概念
 
-* [插件系统 (The Plugin System)](https://github.com/SerpentAI/SerpentAI/wiki/The-Serpent.AI-Plugin-System)
+* [[插件系统 (The Plugin System)|插件系统-(The-Plugin-System)]]
 * [Serpent命令 (The _serpent_ Executable)](https://github.com/SerpentAI/SerpentAI/wiki/The-'serpent'-Executable)
 * [Game类-游戏类 (The _Game_ Class)](https://github.com/SerpentAI/SerpentAI/wiki/The-'Game'-Class)
 * [Game插件-游戏插件 (The _Game_ Plugin)](https://github.com/SerpentAI/SerpentAI/wiki/The-'Game'-Plugin)
@@ -65,5 +65,4 @@
 
 * [NumPy](https://docs.scipy.org/doc/numpy-dev/dev/)
 * [Scikit-image](http://scikit-image.org/docs/stable/)
-
 
