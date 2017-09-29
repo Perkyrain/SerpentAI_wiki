@@ -6,24 +6,24 @@ Feel free to edit this page to add links to GitHub repositories containing your 
 
 ## Game Plugins
 
-#### One Finger Death Punch
+[<img src="http://cdn.edgecast.steamstatic.com/steam/apps/264200/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/264200/One_Finger_Death_Punch/)
 
 * [iKlem/SerpentOneFingerDeathPunchGamePlugin](https://github.com/iKlem/SerpentOneFingerDeathPunchGamePlugin)
 
-#### You Must Build a Boat
-
-* [SerpentAI/SerpentYouMustBuildABoatGamePlugin](https://github.com/SerpentAI/SerpentYouMustBuildABoatGamePlugin)
-
-#### Super Hexagon
+[<img src="http://cdn.edgecast.steamstatic.com/steam/apps/221640/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/221640/Super_Hexagon/)
 
 * [kjullien/SerpentAI-SuperHexagon](https://github.com/kjullien/SerpentAI-SuperHexagon) WIP: contains both Game Plugin and Game Agent Plugin while in data collection phase.
 
+[<img src="http://cdn.edgecast.steamstatic.com/steam/apps/290890/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/290890/You_Must_Build_A_Boat/)
+
+* [SerpentAI/SerpentYouMustBuildABoatGamePlugin](https://github.com/SerpentAI/SerpentYouMustBuildABoatGamePlugin)
+
 ## Game Agent Plugins
 
-#### One Finger Death Punch
+[<img src="http://cdn.edgecast.steamstatic.com/steam/apps/264200/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/264200/One_Finger_Death_Punch/)
 
 * [iKlem/SerpentOneFingerDeathPunchGameAgentPlugin](https://github.com/iKlem/SerpentOneFingerDeathPunchGameAgentPlugin)
 
-#### You Must Build a Boat
+[<img src="http://cdn.edgecast.steamstatic.com/steam/apps/290890/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/290890/You_Must_Build_A_Boat/)
 
 * [SerpentAI/SerpentYouMustBuildABoatGameAgentPlugin](https://github.com/SerpentAI/SerpentYouMustBuildABoatGameAgentPlugin): Implements random, scripted and SGD-driven gameplay
