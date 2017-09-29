@@ -6,6 +6,10 @@ Feel free to edit this page to add links to GitHub repositories containing your 
 
 ## Game Plugins
 
+#### One Finger Death Punch
+
+* [iKlem/SerpentOneFingerDeathPunchGamePlugin](https://github.com/iKlem/SerpentOneFingerDeathPunchGamePlugin)
+
 #### You Must Build a Boat
 
 * [SerpentAI/SerpentYouMustBuildABoatGamePlugin](https://github.com/SerpentAI/SerpentYouMustBuildABoatGamePlugin)
@@ -15,6 +19,10 @@ Feel free to edit this page to add links to GitHub repositories containing your 
 * [kjullien/SerpentAI-SuperHexagon](https://github.com/kjullien/SerpentAI-SuperHexagon) WIP: contains both Game Plugin and Game Agent Plugin while in data collection phase.
 
 ## Game Agent Plugins
+
+#### One Finger Death Punch
+
+* [iKlem/SerpentOneFingerDeathPunchGameAgentPlugin](https://github.com/iKlem/SerpentOneFingerDeathPunchGameAgentPlugin)
 
 #### You Must Build a Boat
 
