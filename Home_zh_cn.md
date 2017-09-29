@@ -16,7 +16,7 @@
 
 ### 快速入门指南
 
-* [Serpent.AI Hello World 样例](https://github.com/SerpentAI/SerpentAI/wiki/The-Serpent.AI-Hello-World)
+* [[Serpent.AI Hello World 样例|Serpent.AI-Hello-World-样例]]
 
 ### 核心概念
 
