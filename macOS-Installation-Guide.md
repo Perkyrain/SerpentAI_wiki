@@ -86,3 +86,7 @@ Run `pip install SerpentAI`
 Then run `serpent setup` to install the remaining dependencies automatically.
 
 ### You are now done with the installation on macOS!
+
+## Caveats
+
+* In order for Serpent.AI to access your mac you'll have to give the terminal you're using rights. You can do this by going to System Preferences > Security & Privacy > Privacy, then place a check box beside your terminal application.
