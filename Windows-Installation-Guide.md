@@ -5,7 +5,7 @@ Installing Serpent.AI on Windows might sound a little daunting at first but it r
 ## Initial Requirements
 
 * Windows 10 (for WSL)
-* Visual C++ Build Tools from [Microsoft](http://landinghub.visualstudio.com/visual-cpp-build-tools) (only needed if Visual Studio is not already installed)
+* Visual C++ Build Tools **2015** from [Microsoft](http://landinghub.visualstudio.com/visual-cpp-build-tools) (only needed if Visual Studio is not already installed)
 
 ## Python Environment
 
