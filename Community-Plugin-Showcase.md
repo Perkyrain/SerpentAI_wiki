@@ -12,7 +12,7 @@ Feel free to edit this page to add links to GitHub repositories containing your 
 
 [<img src="http://cdn.edgecast.steamstatic.com/steam/apps/221640/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/221640/Super_Hexagon/)
 
-* [kjullien/SerpentSuperHexagonGamePlugin](https://github.com/kjullien/SerpentSuperHexagonGamePlugin) WIP: contains both Game Plugin and Game Agent Plugin while in data collection phase.
+* [kjullien/SerpentSuperHexagonGamePlugin](https://github.com/kjullien/SerpentSuperHexagonGamePlugin) (WIP)
 
 [<img src="http://cdn.edgecast.steamstatic.com/steam/apps/290890/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/290890/You_Must_Build_A_Boat/)
 
