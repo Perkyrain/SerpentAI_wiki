@@ -90,3 +90,65 @@ Then run `serpent setup` to install the remaining dependencies automatically.
 ## Caveats
 
 * In order for Serpent.AI to access your mac you'll have to give the terminal you're using rights. You can do this by going to System Preferences > Security & Privacy > Privacy, then place a check box beside your terminal application.
+
+## Compiling Tensorflow from source (Optional)
+I have found that having Tensorflow compiled to use all the instructions set that your CPU provides on macOS greatly speeds up the training process (**up to 5 times**).
+Here are the steps to achieve this, **I recommend running a training with the pip lib first to see the warnings about operations your CPU support but that Tensforflow isn't compiled for (we need them for later)** :
+```
+# First we install bazel, a java build tool.
+# (yes, sadly this requires having to install the Java SDK on your machine)
+# For this, you will need the Java SDK 8, you can grab it here :
+# http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+# You can then proceed
+```
+```
+# We download the Bazel install script for version 0.5.4 (only this version will work for Tensorflow 1.3)
+curl https://github.com/bazelbuild/bazel/releases/download/0.5.4/bazel-0.5.4-installer-darwin-x86_64.sh \
+--output /tmp/bazel-install.sh
+```
+```
+# Next we install Bazel
+./tmp/bazel-install.sh
+# Proceed with install
+```
+```
+# Next, in the right virtualenv we install the dependencies for building TF
+pip install six numpy wheel
+```
+```
+# Next we clone the Tensorflow repository and checkout the version we want, here 1.3
+cd ~ && \
+git clone https://github.com/tensorflow/tensorflow && \
+cd ~/tensorflow && \
+git checkout r1.3
+```
+```
+# We can now configure the install with
+./configure
+# Accepts all defaults
+```
+```
+# Next we build with bazel, with the RIGHT CPU FLAGS ENABLED
+# (https://stackoverflow.com/questions/41293077/how-to-compile-tensorflow-with-sse4-2-and-avx-instructions)
+# For me it was AVX, AVX2, FMA, SSE4.2
+bazel build --config=opt \
+--copt=-mavx \
+--copt=-mavx2 \
+--copt=-mfma \
+--copt=-msse4.2 \
+//tensorflow/tools/pip_package:build_pip_package
+# This takes a while, don't worry about the warnings...
+```
+```
+# Next we will build the pip package with
+bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
+```
+```
+# Last step is to remove the current tensorflow lib in your Serpent AI install and replace it with our one :
+cd your_serpent_install_path
+pip uninstall tensorflow
+# Simply tab to complete the file path
+pip install /tmp/tensorflow_pkg/tensorflow-...
+```
+You're all set !
+Try a training and see the warning not show up and your training finally being somewhat worth your time.
