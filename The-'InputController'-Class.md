@@ -13,7 +13,7 @@ The _InputController_ class is meant to be a gateway to sending game input in th
 
 Serpent.AI provides different backend options to be used with input controllers They are defined in the InputControllers enum:
 
-* `InputControllers.PYAUTOGUI`: A backend that leverages the [PyAutoGUI]() Python library. Default for Linux & macOS. 
+* `InputControllers.PYAUTOGUI`: A backend that leverages the [PyAutoGUI](https://github.com/asweigart/pyautogui) Python library. Default for Linux & macOS. 
 * `InputControllers.NATIVE_WIN32`: A backend that leverages Windows' SendInput DLL function. Default for Windows.
 
 If you want to override your platform's default backend, an entry needs to be added to your Game plugins:
@@ -135,16 +135,41 @@ Type *string* characters with a *duration* interval between.
 
 ## Mouse Actions
 
-### `self.click`
+### `self.move`
 
-**Method Signature** *click(self, button=MouseButton.LEFT, y=None, x=None, duration=0.25)*
+**Method Signature** *move(self, x=None, y=None, duration=0.25, absolute=True)*
 
-Move the mouse cursor to (*y*, *x*) over *duration* and click using *button*.
+Move the mouse cursor to (*x*, *y*) over *duration*. If *absolute* is True, (*x*, *y*) refers to coordinates in pixels starting from the top left of the display, otherwise they are considered offsets from the current mouse cursor position.
+
+* **x**: The X pixel coordinate.
+* **y**: The Y pixel coordinate.
+* **duration**: Time to take to move the cursor to (*x*, *y*) (in seconds).
+* **absolute**: Whether to use absolute or relative coordinates.
+
+### `self.click_down`
+
+**Method Signature** *click_down(self, button=MouseButton.LEFT)*
+
+Press the mouse button corresponding to *button*.
 
 * **button**: An item from the MouseButton enum.
-* **y**: The Y pixel coordinate.
-* **x**: The X pixel coordinate.
-* **duration**: Time to take to move the cursor to (*y*,*x*).
+
+### `self.click_up`
+
+**Method Signature** *click_up(self, button=MouseButton.LEFT)*
+
+Release the mouse button corresponding to *button*.
+
+* **button**: An item from the MouseButton enum.
+
+### `self.click`
+
+**Method Signature** *click(self, button=MouseButton.LEFT, duration=0.25)*
+
+Click the mouse button corresponding to *button*. The time between the press and release is defined by *duration*.
+
+* **button**: An item from the MouseButton enum.
+* **duration**: Time between press and release (in seconds).
 
 ### `self.click_screen_region`
 
@@ -179,15 +204,15 @@ Attempt to locate *query_string* in *game_frame* using OCR with *ocr_preset*. If
 
 ### `self.drag`
 
-**Method Signature** *drag(self, button=MouseButton.LEFT, y0=None, x0=None, y1=None, x1=None, duration=0.25)*
+**Method Signature** *drag(self, button=MouseButton.LEFT, x0=None, y0=None, x1=None, y1=None, duration=0.25)*
 
-Drag using *button* from (*y0*, *x0*) to (*y1*, *x1*).
+Drag using *button* from (*x0*, *y0*) to (*x1*, *y1*).
 
 * **button**: An item from the MouseButton enum.
-* **y0**: Initial Y pixel coordinate.
 * **x0**: Initial X pixel coordinate.
-* **y1**: Destination Y pixel coordinate.
+* **y0**: Initial Y pixel coordinate.
 * **x1**: Destination X pixel coordinate.
+* **y1**: Destination Y pixel coordinate.
 * **duration**: Time to take going from initial to destination pixel coordinates (in seconds).
 
 ### `self.drag_screen_region_to_screen_region`
@@ -203,11 +228,9 @@ Drag using *button* from the center of *start_screen_region* to the center of *e
 
 ### `self.scroll`
 
-**Method Signature** *scroll(self, y=None, x=None, clicks=1, direction="DOWN")*
+**Method Signature** *scroll(self, clicks=1, direction="DOWN")*
 
-Position the mouse cursor at (*y*, *x*) and scroll *clicks* going *direction*.
+Scroll *clicks* going *direction*.
 
-* **y**: The Y pixel coordinate.
-* **x**: The X pixel coordinate.
 * **clicks**: Number of scroll clicks.
 * **direction**: One of "UP", "DOWN"
