@@ -17,7 +17,7 @@ Pretend we want to capture frames for *main_menu*.
 3. While the capture is running, interact with the game to generate as much visual variety as possible without leaving what you would consider the current context.
 4. Wait until you have at least 200 frames captured (more is better!) and click the terminal, let it save everything to disk, and press Ctrl-C.
 5. If you browse to *datasets/collect_frames_for_context/main_menu* you should see the captured frames.
-6. Repeat until you have all other contexts captured.
+6. Repeat until you have all other contexts captured. (You need at least two contexts to start training)
 
 ## Train the Context Classifier
 
