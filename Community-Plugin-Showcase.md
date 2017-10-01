@@ -6,6 +6,10 @@ Feel free to edit this page to add links to GitHub repositories containing your 
 
 ## Game Plugins
 
+[<img src="http://cdn.edgecast.steamstatic.com/steam/apps/400030/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/400030/Cloney/)
+
+* [d0p3t/SerpentCloneyGamePlugin](https://github.com/d0p3t/SerpentCloneyGamePlugin)
+
 [<img src="http://cdn.edgecast.steamstatic.com/steam/apps/264200/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/264200/One_Finger_Death_Punch/)
 
 * [iKlem/SerpentOneFingerDeathPunchGamePlugin](https://github.com/iKlem/SerpentOneFingerDeathPunchGamePlugin)
@@ -19,6 +23,10 @@ Feel free to edit this page to add links to GitHub repositories containing your 
 * [SerpentAI/SerpentYouMustBuildABoatGamePlugin](https://github.com/SerpentAI/SerpentYouMustBuildABoatGamePlugin)
 
 ## Game Agent Plugins
+
+[<img src="http://cdn.edgecast.steamstatic.com/steam/apps/400030/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/400030/Cloney/)
+
+* [d0p3t/SerpentCloneyGameAgentPlugin](https://github.com/d0p3t/SerpentCloneyGameAgentPlugin): (WIP) Flappybird type game using object detection for bot play and DDQN for self learning
 
 [<img src="http://cdn.edgecast.steamstatic.com/steam/apps/264200/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/264200/One_Finger_Death_Punch/)
 
