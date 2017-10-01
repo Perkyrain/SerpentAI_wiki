@@ -9,6 +9,34 @@ The _InputController_ class is meant to be a gateway to sending game input in th
 
 ### Concepts
 
+#### Backend
+
+Serpent.AI provides different backend options to be used with input controllers They are defined in the InputControllers enum:
+
+* `InputControllers.PYAUTOGUI`: A backend that leverages the [PyAutoGUI]() Python library. Default for Linux & macOS. 
+* `InputControllers.NATIVE_WIN32`: A backend that leverages Windows' SendInput DLL function. Default for Windows.
+
+If you want to override your platform's default backend, an entry needs to be added to your Game plugins:
+
+```python
+class SerpentNuclearThroneGame(Game, metaclass=Singleton):
+
+    def __init__(self, **kwargs):
+        kwargs["platform"] = "steam"
+
+        kwargs["input_controller"] = InputControllers.PYAUTOGUI  # <= Specify your InputController backend here 
+
+        kwargs["window_name"] = "Nuclear Throne"
+
+        kwargs["app_id"] = "242680"
+        kwargs["app_args"] = None
+
+        super().__init__(**kwargs)
+
+        self.api_class = NuclearThroneAPI
+        self.api_instance = None
+```
+
 #### Game Focus
 
 Before dispatching inputs, an InputController instance will always make sure the game still has focus to prevent accidental inputs to other applications. If the game loses focus, the desired input will be cancelled.
@@ -25,36 +53,15 @@ If you plan to use mouse input, make sure to import the enum:
 
 `from serpent.input_controller import MouseButton`
 
-#### Keyboard Key Values
+#### KeyboardKey Enum
 
-When a keyboard key is expected as an argument in a function, one of the following values should be passed:
+When a keyboard key is expected as an argument in a function, an item from the KeyboardKey enum should be passed:
 
-```python
-['\t', '\n', '\r', ' ', '!', '"', '#', '$', '%', '&', "'", '(',
-')', '*', '+', ',', '-', '.', '/', '0', '1', '2', '3', '4', '5', '6', '7',
-'8', '9', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`',
-'a', 'b', 'c', 'd', 'e','f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o',
-'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '{', '|', '}', '~',
-'accept', 'add', 'alt', 'altleft', 'altright', 'apps', 'backspace',
-'browserback', 'browserfavorites', 'browserforward', 'browserhome',
-'browserrefresh', 'browsersearch', 'browserstop', 'capslock', 'clear',
-'convert', 'ctrl', 'ctrlleft', 'ctrlright', 'decimal', 'del', 'delete',
-'divide', 'down', 'end', 'enter', 'esc', 'escape', 'execute', 'f1', 'f10',
-'f11', 'f12', 'f13', 'f14', 'f15', 'f16', 'f17', 'f18', 'f19', 'f2', 'f20',
-'f21', 'f22', 'f23', 'f24', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9',
-'final', 'fn', 'hanguel', 'hangul', 'hanja', 'help', 'home', 'insert', 'junja',
-'kana', 'kanji', 'launchapp1', 'launchapp2', 'launchmail',
-'launchmediaselect', 'left', 'modechange', 'multiply', 'nexttrack',
-'nonconvert', 'num0', 'num1', 'num2', 'num3', 'num4', 'num5', 'num6',
-'num7', 'num8', 'num9', 'numlock', 'pagedown', 'pageup', 'pause', 'pgdn',
-'pgup', 'playpause', 'prevtrack', 'print', 'printscreen', 'prntscrn',
-'prtsc', 'prtscr', 'return', 'right', 'scrolllock', 'select', 'separator',
-'shift', 'shiftleft', 'shiftright', 'sleep', 'space', 'stop', 'subtract', 'tab',
-'up', 'volumedown', 'volumemute', 'volumeup', 'win', 'winleft', 'winright', 'yen',
-'command', 'option', 'optionleft', 'optionright']
-```
+[KeyboardKey enum](https://github.com/SerpentAI/SerpentAI/blob/dev/serpent/input_controller.py#L10)
 
-An enum is planned for consistency.
+If you plan to use keyboard input, make sure to import the enum:
+
+`from serpent.input_controller import KeyboardKey`
 
 ### Keyboard Actions
 
