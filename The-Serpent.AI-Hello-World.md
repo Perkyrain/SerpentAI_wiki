@@ -170,6 +170,12 @@ A game agent automatically maintains a small buffer of the frames it has receive
 
 As a last step in this Serpent.AI Hello World, let's add in some key presses.
 
+Add the following import to your game agent file:
+
+```python
+from serpent.input_controller import KeyboardKey
+```
+
 Change _handle\_play_ to this:
 
 ```python
@@ -183,7 +189,7 @@ Change _handle\_play_ to this:
                 str(i)
             )
 
-        self.input_controller.tap_key("right")
+        self.input_controller.tap_key(KeyboardKey.KEY_RIGHT)
 ```
 
 Can you guess what is going to happen?
