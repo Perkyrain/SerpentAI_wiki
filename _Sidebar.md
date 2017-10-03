@@ -37,3 +37,11 @@
 ### Extras
 
 * [Game Agent Development Starter Workflow](https://github.com/SerpentAI/SerpentAI/wiki/Game-Agent-Development-Starter-Workflow)
+
+### Sample Plugins
+#### Game Plugins
+* [SerpentAI/SerpentYouMustBuildABoatGamePlugin](https://github.com/SerpentAI/SerpentYouMustBuildABoatGamePlugin)
+* [SerpentAI/SerpentOpenRCT2GamePlugin ](https://github.com/SerpentAI/SerpentOpenRCT2GamePlugin)
+#### Game Agent Plugins
+* [SerpentAI/SerpentYouMustBuildABoatGameAgentPlugin](https://github.com/SerpentAI/SerpentOpenRCT2GamePlugin)
+* [SerpentAI/SerpentOpenRCT2GameAgentPlugin](https://github.com/SerpentAI/SerpentOpenRCT2GameAgentPlugin)
