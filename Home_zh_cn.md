@@ -25,7 +25,7 @@
 * [[Game类-游戏类 (The _Game_ Class)|Game类-游戏类-(The-Game-Class)]]
 * [[Game插件-游戏插件 (The _Game_ Plugin)|Game插件-游戏插件-(The-Game-Plugin)]]
 * [[GameAgent类-游戏代理类 (The _GameAgent_ Class)|GameAgent类-游戏代理类-(The-GameAgent-Class)]]
-* [GameAgent插件-游戏代理插件 (The _GameAgent_ Plugin)](https://github.com/SerpentAI/SerpentAI/wiki/The-'GameAgent'-Plugin)
+* [[GameAgent插件-游戏代理插件 (The _GameAgent_ Plugin)|GameAgent插件-游戏代理插件-(The-GameAgent-Plugin)]]
 * [GameFrame类-游戏帧类 (The _GameFrame_ Class)](https://github.com/SerpentAI/SerpentAI/wiki/The-'GameFrame'-Class)
 * [InputController类-输入控制类 (The _InputController_ Class)](https://github.com/SerpentAI/SerpentAI/wiki/The-'InputController'-Class)
 * 流传输API及客户端分析处理 (计划中)
