@@ -1,5 +1,4 @@
 _Game_ 插件旨在表示一个基于 _Game_ 类的游戏特定扩展。
-The _Game_ plugin is meant to represent a game-specific extension of the base _Game_ class.
 
 ## 游戏插件包内有什么？
 
