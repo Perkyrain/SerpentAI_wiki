@@ -206,7 +206,7 @@ Attempt to locate *query_string* in *game_frame* using OCR with *ocr_preset*. If
 
 **Method Signature** *drag(self, button=MouseButton.LEFT, x0=None, y0=None, x1=None, y1=None, duration=0.25)*
 
-Drag using *button* from (*x0*, *y0*) to (*x1*, *y1*).
+Drag using *button* from (*x0*, *y0*) to (*x1*, *y1*) over *duration*.
 
 * **button**: An item from the MouseButton enum.
 * **x0**: Initial X pixel coordinate.
