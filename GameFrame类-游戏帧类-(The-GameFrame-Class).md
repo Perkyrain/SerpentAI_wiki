@@ -3,7 +3,7 @@
 _GameFrame_ 类旨在呈现一个在 Serpent.AI 框架中的游戏帧(哇！)。
 
 
-## GameFrame GameAgent实例里有什么？
+## GameFrame 实例里有什么？
 
 ### 功能
 
