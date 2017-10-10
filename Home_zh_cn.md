@@ -32,7 +32,7 @@
 
 ### 常见任务
 
-* [屏幕区域定义及度量](https://github.com/SerpentAI/SerpentAI/wiki/Defining-Screen-Regions)
+* [[屏幕区域定义及度量|屏幕区域定义及度量]]
 * [图像帧及指定图像区域捕获](https://github.com/SerpentAI/SerpentAI/wiki/Capturing-Frames-and-Regions)
 * [训练一个上下文分类器](https://github.com/SerpentAI/SerpentAI/wiki/Training-a-Context-Classifier)
 * [定义及定位精灵 (Sprite)](https://github.com/SerpentAI/SerpentAI/wiki/Identifying-and-Locating-Sprites)
