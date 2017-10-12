@@ -35,7 +35,7 @@
 * [[屏幕区域定义及度量|屏幕区域定义及度量]]
 * [[图像帧及指定图像区域捕获|图像帧及指定图像区域捕获]]
 * [[训练一个上下文分类器|训练一个上下文分类器]]
-* [定义及定位精灵 (Sprite)](https://github.com/SerpentAI/SerpentAI/wiki/Identifying-and-Locating-Sprites)
+* [[定义及定位精灵 (Sprite)|定义及定位精灵-(Sprite)]]
 * [从游戏背景提取精灵](https://github.com/SerpentAI/SerpentAI/wiki/Isolating-Sprites-from-their-Backgrounds)
 * [使用可视化调试器 (Visual Debugger)](https://github.com/SerpentAI/SerpentAI/wiki/Using-the-Visual-Debugger)
 * 使用OCR技术 (计划中)
