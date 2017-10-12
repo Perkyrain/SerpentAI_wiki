@@ -20,22 +20,22 @@
 
 ### 核心概念
 
-* [[插件系统 (The Plugin System)|插件系统-(The-Plugin-System)]]
-* [[Serpent命令 (The _serpent_ Executable)|Serpent命令-(The-serpent-Executable)]]
-* [[Game类-游戏类 (The _Game_ Class)|Game类-游戏类-(The-Game-Class)]]
-* [[Game插件-游戏插件 (The _Game_ Plugin)|Game插件-游戏插件-(The-Game-Plugin)]]
-* [[GameAgent类-游戏代理类 (The _GameAgent_ Class)|GameAgent类-游戏代理类-(The-GameAgent-Class)]]
-* [[GameAgent插件-游戏代理插件 (The _GameAgent_ Plugin)|GameAgent插件-游戏代理插件-(The-GameAgent-Plugin)]]
-* [[GameFrame类-游戏帧类 (The _GameFrame_ Class)|GameFrame类-游戏帧类-(The-GameFrame-Class)]]
-* [[InputController类-输入控制类 (The _InputController_ Class)|InputController类-输入控制类-(The-InputController-Class)]]
+* [插件系统 (The Plugin System)](https://github.com/SerpentAI/SerpentAI/wiki/插件系统-(The-Plugin-System))
+* [Serpent命令 (The _serpent_ Executable)](https://github.com/SerpentAI/SerpentAI/wiki/Serpent命令-(The-serpent-Executable))
+* [Game类-游戏类 (The _Game_ Class)](https://github.com/SerpentAI/SerpentAI/wiki/Game类-游戏类-(The-Game-Class))
+* [Game插件-游戏插件 (The _Game_ Plugin)](https://github.com/SerpentAI/SerpentAI/wiki/Game插件-游戏插件-(The-Game-Plugin))
+* [GameAgent类-游戏代理类 (The _GameAgent_ Class)](https://github.com/SerpentAI/SerpentAI/wiki/GameAgent类-游戏代理类-(The-GameAgent-Class))
+* [GameAgent插件-游戏代理插件 (The _GameAgent_ Plugin)](https://github.com/SerpentAI/SerpentAI/wiki/GameAgent插件-游戏代理插件-(The-GameAgent-Plugin))
+* [GameFrame类-游戏帧类 (The _GameFrame_ Class)](https://github.com/SerpentAI/SerpentAI/wiki/GameFrame类-游戏帧类-(The-GameFrame-Class))
+* [InputController类-输入控制类 (The _InputController_ Class)](https://github.com/SerpentAI/SerpentAI/wiki/InputController类-输入控制类-(The-InputController-Class))
 * 流传输API及客户端分析处理 (计划中)
 
 ### 常见任务
 
-* [[屏幕区域定义及度量|屏幕区域定义及度量]]
-* [[图像帧及指定图像区域捕获|图像帧及指定图像区域捕获]]
-* [[训练一个上下文分类器|训练一个上下文分类器]]
-* [[定义及定位精灵 (Sprite)|定义及定位精灵-(Sprite)]]
+* [屏幕区域定义及度量](https://github.com/SerpentAI/SerpentAI/wiki/屏幕区域定义及度量)
+* [图像帧及指定图像区域捕获](https://github.com/SerpentAI/SerpentAI/wiki/图像帧及指定图像区域捕获)
+* [训练一个上下文分类器](https://github.com/SerpentAI/SerpentAI/wiki/训练一个上下文分类器)
+* [定义及定位精灵 (Sprite)](https://github.com/SerpentAI/SerpentAI/wiki/定义及定位精灵-(Sprite))
 * [从游戏背景提取精灵](https://github.com/SerpentAI/SerpentAI/wiki/Isolating-Sprites-from-their-Backgrounds)
 * [使用可视化调试器 (Visual Debugger)](https://github.com/SerpentAI/SerpentAI/wiki/Using-the-Visual-Debugger)
 * 使用OCR技术 (计划中)
