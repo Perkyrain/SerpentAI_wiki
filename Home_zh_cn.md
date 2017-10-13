@@ -37,7 +37,7 @@
 * [训练一个上下文分类器](https://github.com/SerpentAI/SerpentAI/wiki/训练一个上下文分类器)
 * [定义及定位精灵 (Sprite)](https://github.com/SerpentAI/SerpentAI/wiki/定义及定位精灵-(Sprite))
 * [从游戏背景提取精灵](https://github.com/SerpentAI/SerpentAI/wiki/从游戏背景提取精灵)
-* [使用可视化调试器 (Visual Debugger)](https://github.com/SerpentAI/SerpentAI/wiki/Using-the-Visual-Debugger)
+* [使用可视化调试器 (Visual Debugger)](https://github.com/SerpentAI/SerpentAI/wiki/使用可视化调试器-(Visual-Debugger))
 * 使用OCR技术 (计划中)
 
 ### 其他
