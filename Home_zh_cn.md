@@ -42,7 +42,7 @@
 
 ### 其他
 
-* [新手向游戏代理开发流程](https://github.com/SerpentAI/SerpentAI/wiki/Game-Agent-Development-Starter-Workflow)
+* [新手向游戏代理开发流程](https://github.com/SerpentAI/SerpentAI/wiki/新手向游戏代理开发流程)
 
 ### 插件样例
 
