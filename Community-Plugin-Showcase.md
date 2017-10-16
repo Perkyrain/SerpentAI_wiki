@@ -6,6 +6,10 @@ Feel free to edit this page to add links to GitHub repositories containing your 
 
 ## Game Plugins
 
+[<img src="http://cdn.edgecast.steamstatic.com/steam/apps/250900/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/250900/)
+
+* [SerpentAI/SerpentBindingOfIsaacAfterbirthGamePlugin](https://github.com/SerpentAI/SerpentBindingOfIsaacAfterbirthGamePlugin)
+
 [<img src="http://cdn.edgecast.steamstatic.com/steam/apps/400030/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/400030/Cloney/)
 
 * [d0p3t/SerpentCloneyGamePlugin](https://github.com/d0p3t/SerpentCloneyGamePlugin)
@@ -31,6 +35,10 @@ Feel free to edit this page to add links to GitHub repositories containing your 
 * [SerpentAI/SerpentYouMustBuildABoatGamePlugin](https://github.com/SerpentAI/SerpentYouMustBuildABoatGamePlugin)
 
 ## Game Agent Plugins
+
+[<img src="http://cdn.edgecast.steamstatic.com/steam/apps/250900/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/250900/)
+
+* [SerpentAI/SerpentBindingOfIsaacAfterbirthGameAgentPlugin](https://github.com/SerpentAI/SerpentBindingOfIsaacAfterbirthGameAgentPlugin): Learning to beat Monstro. DDQN.
 
 [<img src="http://cdn.edgecast.steamstatic.com/steam/apps/400030/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/400030/Cloney/)
 
