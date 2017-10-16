@@ -47,11 +47,13 @@ New user? Interested in developing your own game agent experiments? The followin
 
 #### Game Plugins
 
+* [SerpentAI/SerpentBindingOfIsaacAfterbirthGamePlugin](https://github.com/SerpentAI/SerpentBindingOfIsaacAfterbirthGamePlugin)
 * [SerpentAI/SerpentYouMustBuildABoatGamePlugin](https://github.com/SerpentAI/SerpentYouMustBuildABoatGamePlugin)
 * [SerpentAI/SerpentOpenRCT2GamePlugin](https://github.com/SerpentAI/SerpentOpenRCT2GamePlugin) (WIP)
 
 #### Game Agent Plugins
 
+* [SerpentAI/SerpentBindingOfIsaacAfterbirthGameAgentPlugin](https://github.com/SerpentAI/SerpentBindingOfIsaacAfterbirthGameAgentPlugin)
 * [SerpentAI/SerpentYouMustBuildABoatGameAgentPlugin](https://github.com/SerpentAI/SerpentYouMustBuildABoatGameAgentPlugin)
 * [SerpentAI/SerpentOpenRCT2GameAgentPlugin](https://github.com/SerpentAI/SerpentOpenRCT2GameAgentPlugin) (WIP)
 
