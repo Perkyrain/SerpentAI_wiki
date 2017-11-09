@@ -42,6 +42,7 @@ New user? Interested in developing your own game agent experiments? The followin
 ### Extras
 
 * [Game Agent Development Starter Workflow](https://github.com/SerpentAI/SerpentAI/wiki/Game-Agent-Development-Starter-Workflow)
+* [Data Processing Flowchart](https://github.com/SerpentAI/SerpentAI/wiki/Data-Processing-Flowchart)
 
 ### Sample Plugins
 
