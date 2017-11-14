@@ -6,7 +6,7 @@ _提示: 这个教程还在不断完善中，如果按照此教程进行配置�
 ## 初始要求
 
 * Windows 10 (for WSL(Windows Subsystem for Linux))
-* Visual C++ Build Tools 来自 [Microsoft](http://landinghub.visualstudio.com/visual-cpp-build-tools) (仅在没有安装 Visual Studio 的情况下)
+* Visual C++ Build Tools 2015 来自 [Microsoft](http://landinghub.visualstudio.com/visual-cpp-build-tools) (仅在没有安装 Visual Studio 的情况下)
 
 ## Python 环境
 
