@@ -48,7 +48,7 @@ class MyGameAgent(GameAgent):
     def __init__(self, **kwargs):
         super().init(**kwargs)
 
-        self.frame_handler_setups["MY_FRAME_HANDLER"]: self.my_frame_handler_setup
+        self.frame_handler_setups["MY_FRAME_HANDLER"] = self.my_frame_handler_setup
 
     def my_frame_handler_setup(self):
         pass
