@@ -113,6 +113,10 @@ Run `pip install SerpentAI`
 
 Then run `serpent setup` to install the remaining dependencies automatically.
 
+#### If any packages are not found
+
+Try running `pip install SerpentAI --upgrade`
+
 #### In case `kivy.deps.sdl2` or `kivy.deps.glew` errors when installing:
 
 You need to download them manually from the official repository (make sure to download appropriate version, e.g. cp36 for Python 3.6):
@@ -124,6 +128,3 @@ And then run `wheel install [file]` on each of them
 
 ### You are now done with the installation on Windows!
 
-### If any packages are not found
-
-Try running `pip install SerpentAI --upgrade`
