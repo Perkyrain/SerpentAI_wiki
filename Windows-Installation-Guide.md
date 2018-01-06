@@ -123,3 +123,7 @@ You need to download them manually from the official repository (make sure to do
 And then run `wheel install [file]` on each of them
 
 ### You are now done with the installation on Windows!
+
+### If any packages are not found
+
+Try running `pip install SerpentAI --upgrade`
