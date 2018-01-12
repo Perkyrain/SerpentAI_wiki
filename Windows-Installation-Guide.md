@@ -23,7 +23,7 @@ The following commands are to be performed in an _Anaconda Prompt_ with elevated
 
 #### Creating a Conda Env for Serpent.AI
 
-`conda create --name serpent python=3.6` (_serpent_ can obviously be replaced with another name)
+`conda create --name serpent python=3.6` ('serpent' can be replaced with another name)
 
 #### Creating a directory for your Serpent.AI projects
 
