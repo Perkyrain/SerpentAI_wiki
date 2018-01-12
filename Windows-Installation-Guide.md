@@ -19,7 +19,7 @@ Installing regular Python 3.6+ isn't exactly difficult but Serpent.AI relies on 
 
 [Download](https://www.anaconda.com/download/) the Python 3.6 version of Anaconda 4.4.0 and run the graphical installer.
 
-The following commands are to be performed in an _Anaconda Prompt_ with elevated privileges (AKA Run as Administrator...). It is recommended to create a shortcut to this prompt because every Python and Serpent command will have to be performed from there starting now. 
+The following commands are to be performed in an _Anaconda Prompt_ with elevated privileges (Right click and **Run as Administrator**). It is recommended to create a shortcut to this prompt because every Python and Serpent command will have to be performed from there starting now. 
 
 #### Creating a Conda Env for Serpent.AI
 
