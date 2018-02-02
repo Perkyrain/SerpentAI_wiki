@@ -10,6 +10,10 @@
 * [Windows Installation Guide](https://github.com/SerpentAI/SerpentAI/wiki/Windows-Installation-Guide)
 * [macOS Installation Guide](https://github.com/SerpentAI/SerpentAI/wiki/macOS-Installation-Guide)
 
+### Updating
+
+* [Updating Serpent.AI](https://github.com/SerpentAI/SerpentAI/wiki/Updating-Serpent.AI)
+
 ### Quick Start
 
 * [The Serpent.AI Hello World](https://github.com/SerpentAI/SerpentAI/wiki/The-Serpent.AI-Hello-World)
