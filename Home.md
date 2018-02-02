@@ -15,7 +15,7 @@ New user? Interested in developing your own game agent experiments? The followin
 
 ### Updating
 
-* [Updating Serpent.AI]()
+* [Updating Serpent.AI](https://github.com/SerpentAI/SerpentAI/wiki/Updating-Serpent.AI)
 
 ### Quick Start
 
