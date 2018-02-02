@@ -128,11 +128,13 @@ Run `serpent play SuperHexagon SerpentSuperHexagonGameAgent`
 
 If all goes well, you see a bunch of "Hello World!" start streaming in your terminal.
 
+Every time you see a new "Hello World!" appear, your game agent was just fed the latest frame from the game. You might have noticed they are not streaming extremely fast. That's because there is a limiter that throttles the maximum amount of frames an agent can see and react to per second. The threshold is configurable (see _config/config.plugins.yml_) but there is a reason for the default of 2 FPS: Reacting to 2 frames per second is still 120 APM (actions per minute). This is probably faster then you personally react to most games. Unless you are dealing with a game that purely deals with analog controls (racing games, for example), playing at extreme APMs will make the gameplay look _unnatural_ and cause your agents to overreact in most cases.
+
 ## Something a Little More Visual
 
-Every time you saw a new "Hello World!" appear in the previous example, your game agent was fed the latest frame from the game. You might have noticed they were not streaming extremely fast. That's because there is a limiter that throttles the maximum amount of frames an agent can see and react to per second. The threshold is configurable (see _config/config.plugins.yml_) but there is a reason for the default of 2 FPS: Reacting to 2 frames per second is still 120 APM (actions per minute). This is probably faster then you personally react to most games. Unless you are dealing with a game that purely deals with analog controls (racing games, for example), playing at extreme APMs will make the gameplay look _unnatural_ and cause your agents to overreact in most cases.
+_Note: This section requires the GUI extra module to be installed. You can safely skip it as it involves having a working Kivy environment which is pretty complicated if the pip install doesn't work out. A new Hello World article will be provided in the future; one that avoids using the extra modules._
 
-But enough of this. Let's say that on top of printing "Hello World!" you would like to visualize the frames your game agent saw. Serpent.AI ships with an application called the Visual Debugger. The Visual Debugger allows you to examine image data while your agent is running.
+Let's say that on top of printing "Hello World!" you would like to visualize the frames your game agent saw. Serpent.AI ships with an application called the Visual Debugger. The Visual Debugger allows you to examine image data while your agent is running.
 
 Open another terminal and run `serpent visual_debugger`
 
