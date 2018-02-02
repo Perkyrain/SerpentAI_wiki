@@ -13,6 +13,10 @@ New user? Interested in developing your own game agent experiments? The followin
 * [Windows Installation Guide](https://github.com/SerpentAI/SerpentAI/wiki/Windows-Installation-Guide)
 * [macOS Installation Guide](https://github.com/SerpentAI/SerpentAI/wiki/macOS-Installation-Guide)
 
+### Updating
+
+* [Updating Serpent.AI]()
+
 ### Quick Start
 
 * [The Serpent.AI Hello World](https://github.com/SerpentAI/SerpentAI/wiki/The-Serpent.AI-Hello-World)
