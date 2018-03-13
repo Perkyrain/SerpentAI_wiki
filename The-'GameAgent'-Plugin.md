@@ -31,7 +31,7 @@ class MyGameAgent(GameAgent):
     def __init__(self, **kwargs):
         super().init(**kwargs)
 
-        self.frame_handlers["MY_FRAME_HANDLER"]: self.my_frame_handler
+        self.frame_handlers["MY_FRAME_HANDLER"] = self.my_frame_handler
 
     def my_frame_handler(self, game_frame):
         pass
