@@ -38,7 +38,7 @@ Feel free to edit this page to add links to GitHub repositories containing your 
 
 [<img src="http://cdn.edgecast.steamstatic.com/steam/apps/250900/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/250900/)
 
-* [SerpentAI/SerpentBindingOfIsaacAfterbirthGameAgentPlugin](https://github.com/SerpentAI/SerpentBindingOfIsaacAfterbirthGameAgentPlugin): Learning to beat Monstro. DDQN.
+* [SerpentAI/SerpentAIsaacGameAgentPlugin](https://github.com/SerpentAI/SerpentAIsaacGameAgentPlugin): Learning to beat Monstro. Proximal Policy Optimization (PPO).
 
 [<img src="http://cdn.edgecast.steamstatic.com/steam/apps/400030/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/400030/Cloney/)
 
