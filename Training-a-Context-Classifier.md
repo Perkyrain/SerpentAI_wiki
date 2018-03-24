@@ -41,7 +41,10 @@ Copy the model to *plugins/SerpentSuperHexagonGameAgentPlugin/files/ml_models/*.
 
 Add the following to your game agent's constructor or frame handler setup function:
 
+(the def setup_play(self): is the frame handler setup function)
+
 ```python
+import offshoot
 plugin_path = offshoot.config["file_paths"]["plugins"]
 
 context_classifier_path = f"{plugin_path}/SerpentSuperHexagonGameAgentPlugin/files/ml_models/context_classifier.model"
