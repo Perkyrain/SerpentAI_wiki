@@ -63,3 +63,7 @@ Feel free to edit this page to add links to GitHub repositories containing your 
 [<img src="http://cdn.edgecast.steamstatic.com/steam/apps/290890/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/290890/You_Must_Build_A_Boat/)
 
 * [SerpentAI/SerpentYouMustBuildABoatGameAgentPlugin](https://github.com/SerpentAI/SerpentYouMustBuildABoatGameAgentPlugin): Implements random, scripted and SGD-driven gameplay
+
+[<img src="http://cdn.edgecast.steamstatic.com/steam/apps/394160/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/394160/ARCADE_GAME_SERIES_PACMAN/)
+
+* [Log234/SerpentPacAIGameAgentPlugin](https://github.com/Log234/SerpentPacAIGameAgentPlugin)
