@@ -34,6 +34,10 @@ Feel free to edit this page to add links to GitHub repositories containing your 
 
 * [SerpentAI/SerpentYouMustBuildABoatGamePlugin](https://github.com/SerpentAI/SerpentYouMustBuildABoatGamePlugin)
 
+[<img src="http://cdn.edgecast.steamstatic.com/steam/apps/394160/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/394160/ARCADE_GAME_SERIES_PACMAN/)
+
+* [Log234/SerpentPacManGamePlugin](https://github.com/Log234/SerpentPacManGamePlugin)
+
 ## Game Agent Plugins
 
 [<img src="http://cdn.edgecast.steamstatic.com/steam/apps/250900/header.jpg" width="173" height="75" />](http://store.steampowered.com/app/250900/)
