@@ -87,7 +87,7 @@ A module to allow the visual debugger to run.
 
 Kivy is the GUI framework used for the visual debugger in the framework. It is notorious for being rather difficult to get working properly. The most important part is making sure the system dependencies are available:
 
-`brew install pkg-config sdl2 sdl2_image sdl2_ttf sdl2_mixer`
+`brew install pkg-config sdl2 sdl2_image sdl2_ttf sdl2_mixer gstreamer`
 
 #### Installation
 
