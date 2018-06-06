@@ -86,13 +86,11 @@ Once you've validated that Tesseract has been properly set up, you can install t
 
 ### GUI
 
-A module to allow the visual debugger to run.
+A module to allow Serpent.AI desktop app to run.
 
 #### Kivy
 
-Kivy is the GUI framework used for the visual debugger in the framework. In order for Kivy to build successfully, you will need [Visual C++ Build Tools 2015](http://landinghub.visualstudio.com/visual-cpp-build-tools) from Microsoft. 
-
-#### Installation
+Kivy is the GUI framework used in the framework.
 
 Once you are ready to test your Kivy, you can install the module with `serpent setup gui` and try to run `serpent visual_debugger`
 
