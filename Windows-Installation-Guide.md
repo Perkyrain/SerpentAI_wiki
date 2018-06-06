@@ -12,9 +12,9 @@ Serpent.AI was developed taking full advantage of Python 3.6 so it is only natur
 
 Installing regular Python 3.6+ isn't exactly difficult but Serpent.AI relies on a good amount of scientific computing libraries that are extremely difficult / impossible to compile on your own on Windows. Thankfully, the [Anaconda Distribution](https://www.anaconda.com/distribution) exists and takes this huge weight off our collective shoulders.
 
-#### Installing Anaconda 5.0.1 (Python 3.6)
+#### Installing Anaconda 5.2.0 (Python 3.6)
 
-[Download](https://www.anaconda.com/download/) the Python 3.6 version of Anaconda 5.0.1 and run the graphical installer.
+[Download](https://www.anaconda.com/download/) the Python 3.6 version of Anaconda 5.2.0 and run the graphical installer.
 
 The following commands are to be performed in an _Anaconda Prompt_ with elevated privileges (Right click and **Run as Administrator**). It is recommended to create a shortcut to this prompt because every Python and Serpent command will have to be performed from there starting now. 
 
@@ -38,9 +38,20 @@ Redis is used in the framework as the in-memory store for the captured frame buf
 
 Alternatively, you can run it in a [Docker container](https://hub.docker.com/_/redis/).
 
+### Build Tools for Visual Studio 2017
+
+Some of the packages that will be installed alongside Serpent.AI are not pre-compiled binaries and will be need to be built from source. This is a little more problematic for Windows but with the correct C++ Build Tools for Visual Studio it all goes down smoothly.
+
+You can get the proper installer by visiting [https://www.visualstudio.com/downloads/](https://www.visualstudio.com/downloads/) and scrolling down to the _Build Tools for Visual Studio 2017_ download. Download, run, select the _ Visual C++ build tools_ section and make sure the following components are checked:
+
+* Visual C++ Build Tools core features
+* VC++ 2017 version 15.7 v14.14 latest v141 tools
+* Visual C++ 2017 Redistributable Update
+* VC++ 2015.3 v14.00 (v140) toolset for desktop
+
 ## Installing Serpent.AI
 
-Once all of the above had been installed and set up, you are ready to install the framework.
+Once all of the above had been installed and set up, you are ready to install the framework. Remember that PATH changes in Windows are not reflected in your command prompts that were opened while you made the changes. Open a fresh Anaconda prompt before continuing to avoid installation issues.
 
 Go back to the directory you created earlier for your Serpent.AI projects. Make sure you are scoped in your Conda Env.
 
