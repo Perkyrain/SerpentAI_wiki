@@ -42,7 +42,7 @@ Alternatively, you can run it in a [Docker container](https://hub.docker.com/_/r
 
 Some of the packages that will be installed alongside Serpent.AI are not pre-compiled binaries and will be need to be built from source. This is a little more problematic for Windows but with the correct C++ Build Tools for Visual Studio it all goes down smoothly.
 
-You can get the proper installer by visiting [https://www.visualstudio.com/downloads/](https://www.visualstudio.com/downloads/) and scrolling down to the _Build Tools for Visual Studio 2017_ download. Download, run, select the _ Visual C++ build tools_ section and make sure the following components are checked:
+You can get the proper installer by visiting [https://www.visualstudio.com/downloads/](https://www.visualstudio.com/downloads/) and scrolling down to the _Build Tools for Visual Studio 2017_ download. Download, run, select the _Visual C++ build tools_ section and make sure the following components are checked:
 
 * Visual C++ Build Tools core features
 * VC++ 2017 version 15.7 v14.14 latest v141 tools
