@@ -28,7 +28,7 @@ The following commands are to be performed in an _Anaconda Prompt_ with elevated
 
 #### Activating the Conda Env
 
-`activate serpent`
+`conda activate serpent`
 
 ## 3rd-Party Dependencies
 
