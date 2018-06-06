@@ -59,8 +59,6 @@ Run `pip install SerpentAI`
 
 Then run `serpent setup` to install the remaining dependencies automatically.
 
-> In case of download failure, the package will be ignored without any warning at the end of serpent setup, this could lead to strange errors.
-
 ### You are now done with the installation on Windows!
 
 ## Installing Optional Modules
