@@ -106,7 +106,7 @@ You only need to install the following dependencies if:
 
 AND
 
-* You have an NVIDIA GPU that supports CUDA 3.0+ (Generally the GTX 600 series and up)
+* You have an NVIDIA GPU that supports compute capability 3.0+ (Generally the GTX 600 series and up)
 
 ##### NVIDIA Drivers
 
@@ -121,21 +121,24 @@ In case you are totally new to this:
 ##### CUDA
 
 1. Make an account on [https://developer.nvidia.com/](https://developer.nvidia.com/) or log in
-2. Visit [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
-3. Select _Windows_, _x68_64_, _10_, _exe (local)_ and download the installer
-4. Run the graphical installer. If you get a warning about drivers, select _Custom Install_ and untick the drivers option.
-5. Add _C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin_ and _C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\libnvpp_ to your %PATH% environment variable
+2. Visit [https://developer.nvidia.com/cuda-toolkit-archive](https://developer.nvidia.com/cuda-toolkit-archive)
+3. Select _CUDA Toolkit 9.0_
+4. Select _Windows_, _x86_64_, _10_, _exe (local)_ and download the installer
+5. Run the graphical installer. Select _Custom Install_ and untick everything except CUDA.
 
 You can test your CUDA installation by opening an Anaconda Prompt and executing `nvcc --version`.
 
 ##### cuDNN
 
 1. Make an account on [https://developer.nvidia.com/](https://developer.nvidia.com/) or log in
-2. Visit [https://developer.nvidia.com/rdp/cudnn-download](https://developer.nvidia.com/rdp/cudnn-download)
-3. Download _cuDNN v6.0 Library for Windows 10_
-4. Extract _bin_, _include_ and _lib_ inside the ZIP archive to the CUDA installation path equivalent (like _C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0_)
+2. Visit [https://developer.nvidia.com/rdp/cudnn-archive](https://developer.nvidia.com/rdp/cudnn-archive)
+3. Click _Download cuDNN v7.0.5 (Dec 5, 2017), for CUDA 9.0_
+4. Download _cuDNN v7.0.5 Library for Windows 10_
+4. Extract _bin_, _include_ and _lib_ inside the ZIP archive to the CUDA installation path equivalent (like _C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0_)
 5. Make sure _.DLL_ is included in your %PATHEXT% environment variable
 
 #### Installation
 
-Once you've taken care of the dependencies, you can install the module with `serpent setup ml`
+Once you've taken care of the dependencies, you can install the module with `serpent setup ml`. The stable release of the framework installs TensorFlow 1.4.0 which is only compatible with CUDA 8. We installed 9.0 to be compatible with newer releases of TensorFlow which means you will have to uninstall 1.4.0 `pip uninstall tensorflow-gpu`. If you want a good balance of library support and recent enough TensorFlow version, it is currently recommended to install 1.5.1 `pip install tensorflow-gpu==1.5.1`. Installing versions that are too recent breaks compatibility with libraries that build on top of TensorFlow.
+
+You can test your GPU Tensorflow installation by going to `ipython` and entering `import tensorflow`. If it loads without any exceptions, you are good to go!
