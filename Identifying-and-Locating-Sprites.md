@@ -18,7 +18,8 @@ Converting image data to a Sprite object is simple, with one gotcha: The input i
 
 ```python
 import numpy as np
-image_data = image[..., np.newaxis]
+import skimage.io
+image_data = skimage.io.imread(image_file)[..., np.newaxis]
 ```
 
 You then create your Sprite like this:
