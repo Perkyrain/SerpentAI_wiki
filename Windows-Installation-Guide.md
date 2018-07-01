@@ -1,5 +1,7 @@
 Installing Serpent.AI on Windows might sound a little daunting at first but it really turns out to be easier than expected. _Have a pro tip? Contributions to this page are encouraged._
 
+Prefer a video? A thorough install guide is available on [YouTube](https://www.youtube.com/watch?v=5d4Ceq1L8hg).
+
 ## Initial Requirements
 
 * Windows 7 and up
