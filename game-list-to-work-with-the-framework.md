@@ -5,7 +5,7 @@ On this page you will find a section with the games that were run on the [serpen
 then you will find the game list that you might use for an experiment, as long with an other list for the games tested by the comunity.
 and last but not least a few tips on how you could find the reward function.
 
-2. [The games already tested on lab](#The-games-already-tested-on-the-lab)
+1. [The games already tested on lab](#The-games-already-tested-on-the-lab)
 2. [the big list of games](#The-big-list-of-games-that-might-be-a-good-choice-to-work-with)
 3. [games tested by comunity](#games-tested-by-the-comunity)
 4. [tips to design the reward](#\[BONUS\]-tips-to-design-the-reward)
