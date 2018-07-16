@@ -12,7 +12,7 @@ and last but not least a few tips on how you could find the reward function.
 
 
 ## The games already tested on the lab
-Some games have already been tested here on the [Serpent\_AI\_labs](https://www.twitch.tv/serpent_ai_labs), here is the list with a bunch of infos on them.
+Some games have already been tested here on the [Serpent\_AI\_labs](https://www.twitch.tv/serpent_ai_labs), here is the list with a bunch of infos on them and the links to the game plugin and game agent when they are availables.
 
 ### The binding of Isaac Rebirth
 * available on: Windows, MacOS, Linux
@@ -23,22 +23,22 @@ _note: you need the afterbirth+ dlc to use the in game debug console to teleport
     * Game Plugin: <https://github.com/SerpentAI/SerpentAIsaacGamePlugin>
     * Game Agent Plugin: <https://github.com/SerpentAI/SerpentAIsaacGameAgentPlugin>
 
-this one might be the experiment with which you came across the framework, you can write your own game agent or start playing around with the one already made by Serpent.  
+This one might be the experiment with which you came across the framework, you can write your own game agent or start playing around with the one already made by Serpent.  
 you can teleport in monstro room by using the following command:  
-usualy on qwerty keyboard console command interface is spawned by using '~', however it can differ regarding you keyboard layout (on azerty one, you will have to use the key above the tabulation one)
-syntax is goto s.boss.<boss id>  
+usualy on qwerty keyboard console command interface is spawned by using '~', however it can differ regarding you keyboard layout (on azerty one, you will have to use the key above the tabulation one)  
+syntax is: goto s.boss.<boss\_room\_id>  
 ```
 goto s.boss.1010
 ```
 if you want you can give him items with the following:  
-syntax is giveitem <itemid>
+syntax is giveitem <itemid>  
 the following will give him soy milk and libra
 ```
 giveitem c330
 giveitem c304
 ```
 here is some doc about the isaac console: <https://bindingofisaacrebirth.gamepedia.com/Debug_Console>  
-here are some cool clips of it:  
+here are some cool clips of the agent working:  
 * <https://clips.twitch.tv/FunnyBlazingCoyotePartyTime>
 * <https://clips.twitch.tv/WonderfulMuddyOtterKippa>
 
@@ -54,13 +54,12 @@ it did it again <https://clips.twitch.tv/SuspiciousModernHabaneroWOOP> 14/07/201
     * Game Agent Plugin:   
 
 One of the most successful experiment to this day, the game agent manage to rank 3rd after less that one day of training on one track.  
-first the PPO was used but the game agent run into an issue where it would only accelerate and steer left/right, then Serpent switched to a rainbow DQN with pytorch.  
 clip of the ai ranking 3rd in the race: <https://clips.twitch.tv/TriumphantInspiringShrimpTheRinger>  
-Later the game agent has been extended to allow multiple track training
+Later the game agent has been extended to allow multiple track training.
 
 
 ### Super Flight
-* available on: 
+* available on: Windows  
 * download here: <https://store.steampowered.com/app/732430/Superflight/>  
 * game agent here: 
     * Game Plugin: <https://github.com/SerpentAI/SerpentSuperflightGamePlugin>
@@ -75,7 +74,7 @@ Later the game agent has been extended to allow multiple track training
     * Game Plugin:  
     * Game Agent Plugin:  
 
-actually this is the tutorial game for the framework
+Actually this is the tutorial game for the framework
 find the tutorial here [The Serpent.AI Hello World.md](The-Serpent.AI-Hello-World.md)  
 you have also the "code along with serpent" vods on the the main channel, it will help you set up the game agent with it.
 
@@ -89,16 +88,18 @@ _special edition or not it doesnt matter_
     * Game Plugin:  
     * Game Agent Plugin:  
 
-**note** this is not a full game agent, it's only foccusing on the Lockpick minigame.
+**note** this is not a full game agent, it's only foccusing on the Lockpick "minigame".
 to do this experiment a mod with a single small room with a locked chest has been made.
 making one shouldn't be hard.
+
+
 
 ## The big list of games that might be a good choice to work with
 click on the game name, to go to the store page,  
 the list might move in a dedicated file as it grows  
 currently we list only the PC games.  
 later a section with older games (NES/SNES/GameBoy/MegaDrive ...) that can be emulated will be added, but any arcade game is likely going to work.  
-note that non linux games might work in wine (but you will likely have to use a non steam version: CD, gog or humblebundle)
+note that non linux games might work in wine (but you will likely have to use a non steam version: CD, gog or humblebundle).
 
 **be aware**: not all types of games are going to work  
 a game like a open rpg (Zelda, Pokemon, ...) is not possible, or you'll have to focus on a specific part of the game (like the Skyrim lock-pick agent) ;  but a arcade game will most likely work as long as a reward can be defined.
@@ -114,20 +115,26 @@ a game like a open rpg (Zelda, Pokemon, ...) is not possible, or you'll have to 
 |[Street Fighter 4](https://store.steampowered.com/app/21660/Street_Fighter_IV/)| yes     |  no   | no    | dont do online multiplayer  |
 |[Street Fighter 5](https://store.steampowered.com/app/310950/Street_Fighter_V/)| yes     |  no   | no    | dont do online multiplayer  |
 |[Cuphead](https://store.steampowered.com/app/268910/Cuphead/)       | yes     |  no   |  no   | (Bosses only planed on the lab) |
-|[dinosaur game in Chrome]()|  yes  |   yes   |  yes  |                      |
+|[dinosaur game in Chrome](https://www.google.fr/chrome/index.html)|  yes  |   yes   |  yes  | free                     |
 |[FF15 fishing mini game](https://store.steampowered.com/app/637650/FINAL_FANTASY_XV_WINDOWS_EDITION/)|  yes    |  no   |   no  | **might not work** due to qte needed to be quick and not displayer in a way very understandable by AI |
 |[Snake game]()    |    ?    |   ?   |   ?   | you might find an implementation on you OS default games if not you can easily find one for free (as in freeware) on internet |
 |[Defend the planet](https://store.steampowered.com/app/780330/Defend_the_planet/)| yes |   no  |  no   |                             |
 |[Space blaster 8bits](https://store.steampowered.com/app/857110/SPACE_BLASTER_8_BIT/)|   yes   |  no   |  no   |                             |
-|[QWOP](http://www.foddy.net/Athletics.html)           |   yes   |  yes  |  yes  |    web browser game         |
+|[QWOP](http://www.foddy.net/Athletics.html)           |   yes   |  yes  |  yes  |  Free  web browser game         |
 |[Amputea](https://store.steampowered.com/app/289090/AmpuTea/)      |  yes    |  no   |  no   |                             |
 |[Surgeron simulator](https://store.steampowered.com/app/233720/Surgeon_Simulator/)|  yes    |  yes  |  yes  |                             |
-|[Happy Wheels](http://www.totaljerkface.com/happy_wheels.tjf) |    yes  |  yes  | yes   | web browser game, work as long as you have flash  |
+|[Happy Wheels](http://www.totaljerkface.com/happy_wheels.tjf) |    yes  |  yes  | yes   | Free web browser game, work as long as you have flash  |
 |[SuperCratebox](https://store.steampowered.com/app/212800/Super_Crate_Box/)|  yes    | yes   |  yes  |     free                    |
 |[The wizzard who fell in a hole](https://store.steampowered.com/app/562680/The_Wizards_Who_Fell_In_A_Hole/)|  yes    |  yes  |   yes |                             |
 |[Multiball](https://store.steampowered.com/app/877060/MultiBall_BLADOSHARIK/)   |  yes    |  no   |   no  | not all levels might work   |
 |[clone hero](http://clone-hero.wikia.com/wiki/Clone_Hero_Wiki)|  yes    |  yes  |  yes  |                             |
 |[octo gravity](https://store.steampowered.com/app/877060/MultiBall_BLADOSHARIK/)|  yes    |  yes  |  yes  |                            |
+|[burnout paradise](https://store.steampowered.com/app/24740/Burnout_Paradise_The_Ultimate_Box/) | yes |no | no | it could be a fun experiment but i dont know how we could design a reward (no speedometer), maybe using some kind of mod can help |
+|[arcade pac man](https://store.steampowered.com/app/394160/ARCADE_GAME_SERIES_PACMAN/) | yes | no | no |  |
+| [Atari vault](https://store.steampowered.com/app/400020/Atari_Vault/) | yes | yes | yes | this one has  atari games in it, use it if you dont want emulators |
+|[Wormis](https://store.steampowered.com/app/466910/Wormis_The_Game/) | yes | yes | no | F2P |
+
+
 
 ## games tested by the community
 here we list the games tested by the Framework users
