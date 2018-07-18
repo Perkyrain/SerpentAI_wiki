@@ -133,6 +133,11 @@ a game like a open rpg (Zelda, Pokemon, ...) is not possible, or you'll have to 
 |[arcade pac man](https://store.steampowered.com/app/394160/ARCADE_GAME_SERIES_PACMAN/) | yes | no | no |  |
 | [Atari vault](https://store.steampowered.com/app/400020/Atari_Vault/) | yes | yes | yes | this one has  atari games in it, use it if you dont want emulators |
 |[Wormis](https://store.steampowered.com/app/466910/Wormis_The_Game/) | yes | yes | no | F2P |
+|[Enter the Gungeon](https://store.steampowered.com/app/311690/Enter_the_Gungeon/) | yes | yes | yes | Bosses only, at least if we can move to them directly |
+|[Neon Drive](https://store.steampowered.com/app/433910/Neon_Drive/) | yes | yest | yes | time is one of the only reward possible, can confuse the AI when the view change for 3rd person to top down |
+|[Racecar.io](https://store.steampowered.com/app/539640/Racecario/) | yes | yes | no | |
+|[Boros](https://store.steampowered.com/app/613420/BOROS/) | yes | yes | yes | |
+
 
 
 
