@@ -2,7 +2,7 @@ Before setting out to create the framework, one of the requirements that was est
 
 ## Plugin Engine
 
-Under the hood, the framework leverages the [Offshoot Plugin Engine](https://github.com/SerpentAI/offshoot) for Python 3.5+. Offshoot implements a very clear and easy to use plugin workflow and has useful features like unified plugin configuration access, dependency management and callbacks. This being said, you won't to worry about having to learn Offshoot, as it is already implemented in the framework. Feel free to check it out though!
+Under the hood, the framework leverages the [Offshoot Plugin Engine](https://github.com/SerpentAI/offshoot) for Python 3.5+. Offshoot implements a very clear and easy to use plugin workflow and has useful features like unified plugin configuration access, dependency management and callbacks. This being said, you won't have to worry about having to learn Offshoot, as it is already implemented in the framework. Feel free to check it out though!
 
 ## Plugin Management
 
