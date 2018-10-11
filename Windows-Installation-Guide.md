@@ -50,6 +50,7 @@ You can get the proper installer by visiting [https://www.visualstudio.com/downl
 * VC++ 2017 version 15.7 v14.14 latest v141 tools
 * Visual C++ 2017 Redistributable Update
 * VC++ 2015.3 v14.00 (v140) toolset for desktop
+* Universal CRT
 
 ## Installing Serpent.AI
 
