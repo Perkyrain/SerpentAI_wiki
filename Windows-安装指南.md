@@ -59,11 +59,11 @@ Redis 用来实现所捕获帧的内存内存储，同时也是分析事件的�
 
 你可以从这个网址获取正确的安装器 [htitps://www.visualstudio.com/downloads/](https://www.visualstudio.com/downloads/)  找到 _Build Tools for Visual Studio 2017_ download. 找到并下载，在安装器中确保以下的选项被勾上:
 
-* Visual C++ Build Tools core features
-* VC++ 2017 version 15.7 v14.14 latest v141 tools
-* Visual C++ 2017 Redistributable Update
-* VC++ 2015.3 v14.00 (v140) toolset for desktop
-* Universal CRT
+* Visual C++ 生成工具核心功能
+* VC++ 2017 版本 15.7 v14.14 最新 v141 工具
+* Visual C++ 2017 Redistributable 更新
+* 适用于桌面的 VC++ 2015.3 v14.00 (v140) 工具集
+* Windows 通用C运行时
 ### Tesseract
 
 Serpent.AI 内含有一些 OCR 功能，这样我们就可以从游戏帧中读取文字了，我们把这项重任交给 Tesseract 去完成。你可以按照以下步骤为 Windows 安装 Tesseract:
