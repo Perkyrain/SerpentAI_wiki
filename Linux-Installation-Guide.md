@@ -3,6 +3,8 @@ Installing Serpent.AI on Linux platforms should be relatively easy. This install
 ## Initial Requirements
 
 * A X11-Based Desktop Environment (sorry Wayland; for now) - Serpent.AI was Developed on Cinnamon DE
+* The xwininfo command, installed in Arch based distros like this (as superuser)
+  *  `pacman -S xorg-xwininfo`
 
 ## Python Environment
 
