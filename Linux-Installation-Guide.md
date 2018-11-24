@@ -46,7 +46,7 @@ Redis is used in the framework as the in-memory store for the captured frame buf
 
 You can (likely) install Redis from your package manager (Arch-based: _redis_, Debian-based: _redis-server_), run it in a [Docker container](https://hub.docker.com/_/redis/) or [install it from source](https://redis.io/download).
 
-Once it is installed, you can verify it is up and running properly by executing `redis-cli`. Note that this won't work with the Docker container approach but if your container is running, you are good to go!
+Once it is installed, you can verify it is up and running properly by executing `redis-cli`. Note that this won't work with the Docker container approach but if your container is running, you are good to go! If `redis-cli` gives you a Connection refused error, you probably have to start the redis server systemd service. See https://wiki.archlinux.org/index.php/Redis for details for Arch based distros.
 
 Native installs are favored over Docker containers for performance reasons.
 
